@@ -2591,7 +2591,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="6347721d31864738b0e7a03f5553e69b" category="section-title">AIX 主机要求</block>
   <block id="fed30036a3caffc826b4e66f434f67ea" category="paragraph">在安装适用于 AIX 的 SnapCenter 插件软件包之前，应确保主机满足要求。</block>
   <block id="cddfaa01c32e2362546c78364751248b" category="admonition">适用于 UNIX 的 SnapCenter 插件是适用于 AIX 的 SnapCenter 插件软件包的一部分，不支持并发卷组。</block>
-  <block id="895327977020e495debf0b375c7541d8" category="paragraph">AIX 6.1或更高版本</block>
   <block id="974c2262615af73433567515efbb80e9" category="paragraph">4 GB</block>
   <block id="5dcb853141d33f26c1df2f75da07200a" category="list-text">Java 1.8.x (64位) IBM Java</block>
   <block id="3fe85b9e16f08cb63e5aaa5c215097d7" category="list-text">Java 11 (64位) IBM Java</block>
@@ -8305,4 +8304,5 @@ NetApp®Single Mailbox Recovery已于2023年5月12日终止提供(EOA)。在支�
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="ad569cc1cca820033bb20ffe1d5bc4a5" category="paragraph">AIX 7.1或更高版本</block>
 </blocks>
