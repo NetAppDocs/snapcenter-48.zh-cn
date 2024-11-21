@@ -16,7 +16,6 @@
   <block id="d1024e540ddbde0c895907728f551025" category="paragraph">此示例显示了有关 2015 年 1 月 29 日至 2015 年 2 月 3 日备份的详细信息：</block>
   <block id="4544315cf8cf4a9ef7dd5ae463d9557d" category="list-text">使用 Restore-SmBackup cmdlet 从备份中还原数据。</block>
   <block id="186767ddfa4a5b30e2b4a7d5eb5fce25" category="inline-link">《 SnapCenter 软件 cmdlet 参考指南》</block>
-  <block id="5f3dbd65abc0c8e09475825857078de8" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="e7fe1684e0925197f6b04ba8221741ad" category="paragraph">在使用 PowerShell cmdlet 执行数据保护操作之前，您必须创建 Storage Virtual Machine （ SVM ）连接和凭据。</block>
   <block id="d428ebb7ac02e1484781b38a799a4f99" category="paragraph">* 您需要的内容 *</block>
   <block id="2d3dd877f482d5e495bedaecc930ab1e" category="list-text">您应已准备好 PowerShell 环境以执行 PowerShell cmdlet 。</block>
@@ -59,11 +58,9 @@
   <block id="54cc5efef9b7edd3fd699fc1e5a0ff50" category="list-text"><block ref="9e5776de837624f6470d45e3ceec892f" category="inline-image-macro-rx" type="image"></block> 已完成，但出现警告或由于出现警告而无法启动</block>
   <block id="18dd8bff286ad496b3933c00b69968bc" category="inline-image-macro">验证作业已排队</block>
   <block id="d208aa08a03da9a8a8e5bd96ad0fedae" category="list-text"><block ref="ef6f1c216f28d7814323778090034017" category="inline-image-macro-rx" type="image"></block> 已排队</block>
-  <block id="cc9dbc9fb7810be481501a3376208520" category="list-text"><block ref="c646c5e33fd3a6c1e32ebcb9f24cc88e" category="inline-image-macro-rx" type="image"></block> 已取消</block>
   <block id="b40a6c0b08ac99c86eb676e2689c6996" category="list-text">在左侧导航窗格中，单击 * 监控 * 。</block>
   <block id="c0a63413cafa6a465f587d5835701c87" category="list-text">在监控页面中，单击 * 作业 * 。</block>
   <block id="3160f4991d365988a865df5567f2147f" category="list-text">在作业页面中，执行以下步骤：</block>
-  <block id="6044156c6f0da8e8ec296448fa2d5fa5" category="list-text">单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 对列表进行筛选，以便仅列出备份操作。</block>
   <block id="7407325f29b504f9c8b87ec8da503815" category="list-text">指定开始日期和结束日期。</block>
   <block id="e10f73b33c1a0725b8812f08089e7788" category="list-text">从 * 类型 * 下拉列表中，选择 * 备份 * 。</block>
   <block id="1f8a6ebe3d4d002c37961084ee957772" category="list-text">从 * 状态 * 下拉列表中，选择备份状态。</block>
@@ -115,7 +112,6 @@
   <block id="883f217b99bc288ae19aa7d6d60b021f" category="paragraph">您可以使用作业页面监控不同 SnapCenter 还原操作的进度。您可能需要检查操作的进度，以确定操作何时完成或是否存在问题描述。</block>
   <block id="ee9237c14a6c4cc7b6b4a10fbf38aa79" category="paragraph">还原后状态用于描述还原操作之后资源的状况以及您可以执行的任何进一步还原操作。</block>
   <block id="ec0ce2a8340fde4668c9c369e1e0a781" category="paragraph">以下图标将显示在作业页面上，并指示操作的状态：</block>
-  <block id="1bfa745c5533e2551a662571c60d9a71" category="list-text">单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 对列表进行筛选，以便仅列出还原操作。</block>
   <block id="72703ba150df91059707035aef45dd74" category="list-text">从 * 类型 * 下拉列表中，选择 * 还原 * 。</block>
   <block id="a28133afd7846d1e77aa696930846108" category="list-text">从 * 状态 * 下拉列表中，选择还原状态。</block>
   <block id="e12538143afda34a18dc094aa39a01ff" category="list-text">单击 * 应用 * 以查看已成功完成的操作。</block>
@@ -163,7 +159,6 @@
   <block id="f07d683ff584804916c5fb4327c3415a" category="list-text">在左侧导航窗格中，单击 * 监控 * &gt; * 作业 * 。</block>
   <block id="69af9660907978082fde059126622d8c" category="list-text">选择操作，然后单击 * 取消作业 * 。</block>
   <block id="0e8f9ce78b94dad391f7bf1190e4c848" category="paragraph">活动窗格</block>
-  <block id="385678dd00c5a8c59bf6e2b642301b5d" category="list-text">启动备份操作后，单击 *<block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block>* 以查看最近的五个操作。</block>
   <block id="5605734dc1e0ba578df46e1ad0adc35e" category="list-text">选择操作。</block>
   <block id="87d17d6ca32a6bc54b23a511eb3a0f58" category="list-text">在作业详细信息页面中，单击 * 取消作业 * 。</block>
   <block id="569d7ad91ac8653d08a314e2f0c4f16d" category="paragraph">此操作将被取消，并且资源将还原到先前的状态。</block>
@@ -249,7 +244,6 @@
   <block id="16fdd92def5a71313d6535c74ef67b81" category="paragraph">network interface show</block>
   <block id="5999e4ab912c7c1d8aa6fd2225491ef2" category="paragraph">vserver</block>
   <block id="18c6c7b07148849996bd7da366d6bf60" category="paragraph">您可以使用作业页面监控 SnapCenter 克隆操作的进度。您可能需要检查操作的进度，以确定操作何时完成或是否存在问题描述。</block>
-  <block id="62db5b4d65c0cdab012121187a77e764" category="list-text">单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 对列表进行筛选，以便仅列出克隆操作。</block>
   <block id="4cfa68aad234b91494e417f8012ca40d" category="list-text">从 * 类型 * 下拉列表中，选择 * 克隆 * 。</block>
   <block id="7c18f9fe3e82229bbf88d4133dde72bd" category="list-text">从 * 状态 * 下拉列表中，选择克隆状态。</block>
   <block id="33edcafc3b101b5da89793db6c9151a5" category="list-text">单击 * 应用 * 以查看已成功完成的操作。</block>
@@ -272,7 +266,6 @@
   <block id="efcc8219675b74be2ea4ec68fc2b81f2" category="paragraph">从视图列表中选择 * 路径 * 。</block>
   <block id="c0a1b33f51c24ec7a0237c45c3a450f8" category="list-text">从列表中选择相应的资源。</block>
   <block id="e984402842ada9bf4703b2df6ce206b3" category="paragraph">此时将显示资源拓扑页面。</block>
-  <block id="e3bd3cf6b34ce0697d272736f31e2591" category="list-text">在管理副本视图中，选择克隆的资源（例如数据库或 LUN ），然后单击 *<block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>*</block>
   <block id="f5cfd65b6cd03934d8269e3f878035d8" category="list-text">查看要拆分的克隆的估计大小以及聚合上所需的可用空间，然后单击 * 开始 * 。</block>
   <block id="8b9460bf38a68108bcdd278a386b3156" category="list-text">单击 * 监控 * &gt; * 作业 * 以监控操作进度。</block>
   <block id="ff09e99880e5a1ea7500cf09b4e8de2a" category="paragraph">如果 SMCore 服务重新启动，克隆拆分操作将停止响应。您应运行 Stop-SmJob cmdlet 停止克隆拆分操作，然后重试克隆拆分操作。</block>
@@ -352,7 +345,6 @@
   <block id="1b782c06b199c89589ed8bcf1a6ca9ab" category="paragraph">您可以在此目录中放置多个 CRL 文件。系统将根据每个 CRL 验证传入的证书。</block>
   <block id="508d1ec07ef963e40e719409d5aa0885" category="paragraph">" 活动 " 窗格显示最近执行的五个操作。此外，活动窗格还会显示操作的启动时间以及操作的状态。</block>
   <block id="07c32e173146fec37a6631a5839e7295" category="paragraph">活动窗格显示有关备份，还原，克隆和计划的备份操作的信息。如果您使用的是适用于 SQL Server 的插件或适用于 Exchange Server 的插件，则活动窗格还会显示有关转义操作的信息。</block>
-  <block id="9db06cff1e8eb604a482b82e3fc0ca83" category="list-text">单击 <block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block> 在活动窗格上查看五个最新操作。</block>
   <block id="1bda1d3d1b1aa30c230856d37acc2121" category="paragraph">单击其中一个操作时，操作详细信息将列在 " 作业详细信息 " 页面中。</block>
   <block id="d4d451fe9bcfe7f834b0f3648f4a43d2" category="paragraph">您应使用 Windows 主机插件服务配置 CA 证书，以激活已安装的数字证书。</block>
   <block id="0038a64c6c7736efde380d3c84157a59" category="paragraph">在 SnapCenter 服务器以及已部署 CA 证书的所有插件主机上执行以下步骤。</block>
@@ -445,7 +437,6 @@
   <block id="ae814120fc24f0ac821b8f45c0995ad3" category="list-text">如果在创建角色时选择了 * 此角色的所有成员均可在用户 \ 组页面中查看和操作其他成员对象 * ，则可以在使用此角色时取消其他成员排队的克隆操作。</block>
   <block id="e634bbfa951fb769598deb5b24346cbc" category="paragraph">* 步骤 *</block>
   <block id="95486229c23ce90321c3008d59008ce7" category="list-text">选择操作，然后单击 * 取消作业 * 。</block>
-  <block id="ad65738dc09fb91267ca71436089581a" category="list-text">启动克隆操作后，单击 <block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block> 在活动窗格上查看五个最新操作。</block>
   <block id="588f36766e9f6a960b4f3c2a83a4a69b" category="paragraph">您可以取消已排队的还原作业。</block>
   <block id="291fce3784ace5b5b71f5f0d1a3acecd" category="paragraph">您应以 SnapCenter 管理员或作业所有者的身份登录以取消还原操作。</block>
   <block id="d54432dcfb60b8b22d76998e3ae88f6c" category="list-text">您可以从 * 监控 * 页面或 * 活动 * 窗格取消排队的还原操作。</block>
@@ -454,7 +445,6 @@
   <block id="f319250163ff24dbbbd6e1e43498fcfe" category="list-text">对于无法取消的还原操作， * 取消作业 * 按钮处于禁用状态。</block>
   <block id="0a0d2a6c3f4b6cd698fb18dba219d5d1" category="list-text">如果在创建角色时选择了 * 此角色的所有成员均可在用户 \ 组页面中查看和操作其他成员对象 * ，则可以在使用此角色时取消其他成员的排队还原操作。</block>
   <block id="8884d35f96afbdd086b8c2ab66a004f1" category="list-text">选择作业并单击 * 取消作业 * 。</block>
-  <block id="9fa4e15a7c52779b0b728e143fd56a21" category="list-text">启动还原操作后，单击 <block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block> 在活动窗格上查看五个最新操作。</block>
   <block id="cd2e2c723c403abdc6897c3987837652" category="paragraph">证书指纹是用于标识证书的十六进制字符串。指纹是使用指纹算法根据证书内容计算得出的。</block>
   <block id="8b2033ee038f3ffe4ada7fc0ecc59fbe" category="list-text">在 GUI 上执行以下操作：</block>
   <block id="3c409c2d84087302c5de3855b68c7aab" category="list-text">双击证书。</block>
@@ -486,8 +476,6 @@
   <block id="eebed0ac34228e0e0f38c9d860604c29" category="list-text">您必须配置 HDB SQL OS 用户才能访问系统数据库。如果将 HDB SQL OS 用户配置为仅访问租户数据库，则发现操作将失败。</block>
   <block id="883766d38a60b014b1f295ce741d2078" category="list-text">在左侧导航窗格中，单击 * 资源 * ，然后从列表中选择适用于 SAP HANA 数据库的 SnapCenter 插件。</block>
   <block id="4be65a5ea46b3e2f23ace622863d9afc" category="list-text">在资源页面中，从 * 视图 * 列表中选择资源类型。</block>
-  <block id="214914d9549015d63d4b86758e66e1aa" category="list-text">（可选）单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 并选择主机名。</block>
-  <block id="e6b04dca8731f73a6232df543bed1168" category="paragraph">然后，您可以单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
   <block id="39e3c69c6f9d80e017de1f541e1670ca" category="list-text">选择数据库，然后单击 * 配置数据库 * 。</block>
   <block id="7549e4590c51e2808eff73abfe0bfd99" category="list-text">在 Configure database settings 部分中，输入 HDB Secure User Store Key 。</block>
   <block id="41119aa704f7776e425d802cc1efdd26" category="admonition">此时将显示插件主机名，并自动将 HDB SQL OS 用户填充到 &lt;sid&gt;adm 。</block>
@@ -592,8 +580,6 @@
   <block id="a9d0e12f10920c999cb78960286bd82a" category="paragraph">无法修改或删除自动发现的资源。</block>
   <block id="ea6799b398e3200b6531e1aa5a544d0c" category="list-text">在左侧导航窗格中，单击 * 资源 * ，然后从列表中选择适用于 SAP HANA 数据库的插件。</block>
   <block id="3e025b4a685d145a938552cff1a33612" category="list-text">在资源页面中，从视图列表中选择资源类型。</block>
-  <block id="275739dcbd0826cc4a0ad3c63d35359a" category="list-text">（可选）单击 *<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>* ，然后选择主机名。</block>
-  <block id="811422b4eb759583a4051504db293f64" category="paragraph">然后，您可以单击 *<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>* 以关闭筛选器窗格。</block>
   <block id="0f034106893faef4643a4f2e45058c52" category="list-text">单击 * 刷新资源 * 以发现主机上可用的资源。</block>
   <block id="eb037ec78f327455a8e36a07871d70c6" category="paragraph">此时将显示资源以及资源类型，主机名，关联的资源组，备份类型，策略和整体状态等信息。</block>
   <block id="d960a78735f8828146abd7c7f897adb9" category="list-text">如果数据库位于 NetApp 存储上且未受保护，则整体状态列中将显示未受保护。</block>
@@ -612,7 +598,6 @@
   <block id="660aad66a7be47efbd614fddb4ff93b8" category="list-text">使用 remove-smprotectresource cmdlet 删除克隆资源的保护。</block>
   <block id="2a251da54f18e5dbcf2e7040051b6002" category="list-text">从资源页面中选择父资源。</block>
   <block id="9fbd721fcf9b4830fd6828081be6f142" category="list-text">从管理副本视图中，从主存储系统或二级（镜像或复制的）存储系统中选择克隆。</block>
-  <block id="90021265060d6610a36239d59c25b4e1" category="list-text">选择克隆，然后单击 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block> 要删除克隆，请单击 <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block> 拆分克隆。</block>
   <block id="65c7bdc0c946f828cd443cfb3a30afb1" category="summary">您可以使用 Install-SmHostPackage PowerShell cmdlet 在多个主机上同时安装适用于 Linux 或 Windows 的 SnapCenter 插件软件包。</block>
   <block id="85e03b5aac12ea0d7a83ca6e7fa64654" category="doc">使用 cmdlet 在多个远程主机上安装适用于 Linux 或 Windows 的 SnapCenter 插件软件包</block>
   <block id="96f483d89b964507a30894203906a711" category="paragraph">您必须已在要安装此插件软件包的每个主机上以具有本地管理员权限的域用户身份登录到 SnapCenter 。</block>
@@ -634,7 +619,6 @@
   <block id="c09e638cb8ee35698e3172550b12d8fa" category="list-text">在左侧导航窗格中，单击 * 设置 * 。</block>
   <block id="2c15d2ecea29fd187ddafb032b93d4a6" category="list-text">在设置页面中，单击 * 凭据 * 。</block>
   <block id="a5bb4561024cbac1f26c361cff68730e" category="list-text">单击 * 新建 * 。</block>
-  <block id="ffa66d0b6548351c980beb43900626f7" category="image-alt">安装 runas 帐户</block>
   <block id="360027b0fe13d40229e30b3f3bf19043" category="list-text">在凭据页面中，指定配置凭据所需的信息：</block>
   <block id="21f831502a413a739e20cbf9f2eefe54" category="cell">对于此字段 ...</block>
   <block id="5e2ad6fd9deb412d871137094ee43ef0" category="cell">执行此操作 ...</block>
@@ -718,13 +702,11 @@
   <block id="dbc89dfae1c6c8ad4eb43878b9171ca6" category="inline-link-macro">备份资源组</block>
   <block id="ae75553103cbeaaaa3b0e4002805ae6f" category="paragraph"><block ref="ae75553103cbeaaaa3b0e4002805ae6f" category="inline-link-macro-rx"></block></block>
   <block id="961e6abd0c7a72786d3641390a4dea5f" category="list-text">如果要在一个或多个租户数据库关闭时创建基于文件的备份、请在HANA属性文件中使用将allow_file_based _backup_IFINACTIVE_tenants_present参数设置为*是*<block ref="c49971dbd0f66cf4e6b62fc441967947" prefix=" " category="inline-code"></block> cmdlet。</block>
-  <block id="c6bac95430dac4e5070788ce23acefc4" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 get-help _command_name_ 来获取。或者，您也可以参考<block ref="3f0d4c4b3a1c9cfa1189bb7484d60c1b" category="inline-link-rx"></block></block>
   <block id="d5d9a4c4e51c27e556fb89bfdd11f0b0" category="list-text">对于用于暂停、Snapshot副本和取消静默操作的预后和后命令、您应通过以下路径检查这些命令是否位于插件主机上的命令列表中：</block>
   <block id="19650f12fd9f269a497d4edc60754137" category="paragraph">对于Windows：_C：\Program Files\NetApp\SnapCenter\SnapCenter Plug-in Creator\etc\allowed_commands_list.txt</block>
   <block id="e7b4efc5dd5b16a36c26e91652b78194" category="paragraph">对于Linux：/var/opt/snapcenter/scC/allowed_commands_list.txt</block>
   <block id="2dd7c4421097b3d796ff9bf355ebaa6e" category="admonition">如果命令列表中不存在这些命令、则操作将失败。</block>
   <block id="a2286f0c6fbfecb0501c43aa965242b6" category="list-text">在资源页面中，根据资源类型从 * 视图 * 下拉列表中筛选资源。</block>
-  <block id="127c10f681ffba1b9fa91c9bf92bcbc8" category="paragraph">单击 *<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>* ，然后选择主机名和资源类型以筛选资源。然后，您可以单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
   <block id="085ab917326888bb9fd0378b5efb84b9" category="list-text">单击要备份的资源。</block>
   <block id="0ab7e5f8a6ae4c1833f0606e717b782e" category="list-text">在资源页面中，选择 * 对 Snapshot 副本使用自定义名称格式 * ，然后输入要用于 Snapshot 副本名称的自定义名称格式。</block>
   <block id="8deb8aa93ea3b02fc36610daf36edad9" category="paragraph">例如， _customtext_policy_hostname_ 或 _resource_hostname_ 。默认情况下， Snapshot 副本名称会附加时间戳。</block>
@@ -747,12 +729,9 @@
   <block id="1accc18e0f25decba79f224ccd167283" category="paragraph">选择 * 具有文件系统一致性的 SnapCenter * 。</block>
   <block id="b0be4061cee618df981a407920b78462" category="paragraph">可输入命令以创建 Snapshot 副本</block>
   <block id="530fb3b2ba42bf6ae30b22ac27b110a9" category="paragraph">选择 * 其他 * ，然后输入命令创建 Snapshot 副本。</block>
-  <block id="129db5e4908943c18847d24dd577782f" category="paragraph"><block ref="129db5e4908943c18847d24dd577782f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="53899dcc4360d3b8622ce5dc08a12950" category="list-text">在策略页面中，执行以下步骤：</block>
   <block id="70c30c71587e2d0c71b7f9e97a8aad7d" category="list-text">从下拉列表中选择一个或多个策略。</block>
-  <block id="e27c3f444b9f74c83a643ba11ed3a83e" category="admonition">您也可以单击 * 来创建策略<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>*</block>
   <block id="db9cc4a2ed12e21bb79e9346714c68b9" category="paragraph">在为选定策略配置计划部分中，将列出选定策略。</block>
-  <block id="d9efe8cd3b84ef411469a4acc1e9bb8a" category="list-text">单击 *<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>* 。</block>
   <block id="a4412452c9cff96f8d11e97e688ba35e" category="list-text">在添加策略 _policy_name_ 的计划对话框中，配置计划，然后单击 * 确定 * 。</block>
   <block id="90334c9b6a705f8c6dafb182257f149b" category="paragraph">_policy_name_ 是所选策略的名称。</block>
   <block id="bf5bc6c2ed0f05ce21c3e597309a4f6b" category="paragraph">已配置的计划将列在 "applied Schedules" 列中。</block>
@@ -799,8 +778,6 @@
   <block id="15fda0d23b806181f091668c1c1e55bf" category="paragraph">您可以为资源（数据库）或资源组创建备份。备份工作流包括规划，确定要备份的数据库，管理备份策略，创建资源组和附加策略，创建备份以及监控操作。</block>
   <block id="b9721a35a6c374ded595576ccbd2f789" category="paragraph">以下工作流显示了必须执行备份操作的顺序：</block>
   <block id="6a9192ab011aeeddc22793310691a1e4" category="image-alt">SAP_HANA 备份工作流</block>
-  <block id="0001160fa843faa4e5294c286bd2a184" category="paragraph">您也可以手动使用PowerShell cmdlet或在脚本中使用PowerShell cmdlet来执行备份、还原和克隆操作。SnapCenter cmdlet 帮助和 cmdlet 参考信息包含有关 PowerShell cmdlet 的详细信息。
-<block ref="0a3e2ef7f51b42a7ddee804547031be0" category="inline-link-rx"></block>。</block>
   <block id="391b68bcb3d6f9d643ee0cb78ff1dfde" category="summary">在使用 PowerShell cmdlet 备份，还原或克隆 SAP HANA 数据库之前，您必须创建 Storage Virtual Machine （ SVM ）连接和凭据。</block>
   <block id="cc33ddff1a25485bc2416a9b57a9f8c5" category="doc">使用适用于 SAP HANA 数据库的 PowerShell cmdlet 创建存储系统连接和凭据</block>
   <block id="70991649072f70fdb060c64c2144c8c8" category="paragraph">SnapCenter 不支持在不同集群上使用相同名称的多个存储系统。SnapCenter 支持的每个存储系统都应具有唯一的名称和唯一的数据 LIF IP 地址。</block>
@@ -833,7 +810,6 @@
   <block id="691f9dff16ebd5da65b5dbbe0c978b53" category="list-text">支持 XFS 文件系统上的 Linux LVM 。</block>
   <block id="d03608911fb0f378ca59b86a32adfb17" category="summary">如果要保护 SAP HANA 数据库，您应安装和设置适用于 SAP HANA 数据库的 SnapCenter 插件。</block>
   <block id="1360b9c3f96e4bcb224d198ae827046e" category="doc">适用于 SAP HANA 数据库的 SnapCenter 插件的安装工作流</block>
-  <block id="8eb6eae2f08f541d02277c6746c4fa05" category="image-alt">SAP HANA 安装配置工作流</block>
   <block id="5e398ea531b7d56ad433ce2103049eab" category="summary">决定所需备份作业数量的因素包括资源大小，已用卷数，资源更改率以及您的服务级别协议 \ （ SLA\ ）。</block>
   <block id="89db1be308293dea721d491e7947cbe2" category="doc">SAP HANA 数据库所需的备份作业数</block>
   <block id="8b3a2edf035fc93730de54663ee89cc2" category="paragraph">决定所需备份作业数量的因素包括资源大小，已用卷数，资源更改率以及您的服务级别协议（ Service Level Agreement ， SLA ）。</block>
@@ -940,7 +916,6 @@ log_backup_0_0_0_0.161518551942
   <block id="086beaa9afd2391b7d5204a8db47791c" category="paragraph">可输入要在主机上执行的命令以创建 Snapshot 副本。</block>
   <block id="f3534eb85a79e67d42411ae7be3de94f" category="paragraph">选择 * 其他 * ，然后输入要在主机上执行的命令以创建 Snapshot 副本。</block>
   <block id="39fba97fa35b3e2df0e6339cd21abe23" category="paragraph">这些策略将在为选定策略配置计划部分列出。</block>
-  <block id="eb40bd4c68324257632328b6d08fa139" category="list-text">在配置计划列中，单击 *<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>* 表示要配置的策略。</block>
   <block id="2a7c4561536268cef70578e0e4124a6c" category="paragraph">其中， policy_name 是选定策略的名称。</block>
   <block id="7c221f1777123603eacf6f596630737a" category="paragraph">已配置的计划将列在 * 已应用的计划 * 列中。</block>
   <block id="eecd36c568b40385bb729410ba711a64" category="paragraph">如果第三方备份计划与 SnapCenter 备份计划重叠，则不支持这些计划。</block>
@@ -1081,7 +1056,6 @@ log_backup_0_0_0_0.161518551942
   <block id="92ae04a417b2b1bf95cb914953f21cce" category="list-text">您必须已创建附加了策略的资源组。</block>
   <block id="bf48a7e0eb56785cdc1ed4c661d3583f" category="paragraph">您可以从 " 资源 " 页面按需备份资源组。如果资源组附加了策略并配置了计划，则会根据计划自动进行备份。</block>
   <block id="5188766c2c9e07184bb642e31a6d1193" category="list-text">在资源页面中，从 * 视图 * 列表中选择 * 资源组 * 。</block>
-  <block id="21364d4ce43113190e1c8a9ca29e8c66" category="paragraph">您可以通过在搜索框中输入资源组名称或单击来搜索资源组 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>，然后选择标记。然后，您可以单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
   <block id="6c22568aa6116c11fda42febcf7b796a" category="list-text">在资源组页面中，选择要备份的资源组，然后单击 * 立即备份 * 。</block>
   <block id="38daee81aaf3af99133cf03d753b6a86" category="list-text">如果您将多个策略与资源组关联，请从 * 策略 * 下拉列表中选择要用于备份的策略。</block>
   <block id="e53ba889508b719f73b0223755d7a145" category="summary">您可以使用 SnapCenter 克隆备份。您可以从主备份或二级备份克隆。</block>
@@ -1141,7 +1115,6 @@ log_backup_0_0_0_0.161518551942
   <block id="dd5f630f41cdfc02249f05e881feeef5" category="summary">还原和恢复工作流包括规划，执行还原操作和监控操作。</block>
   <block id="e30c3d908a4ed515e16791b672cc0709" category="doc">还原工作流</block>
   <block id="f221802dd348fa7fec376c674a7bceda" category="paragraph">以下工作流显示了必须执行还原操作的顺序：</block>
-  <block id="5efaab231bdeaf77ed795fa0e9d5b3e4" category="paragraph"><block ref="0a3e2ef7f51b42a7ddee804547031be0" category="inline-link-rx"></block>。</block>
   <block id="ffaafcbad8fa7abfb6f9166b4bc76388" category="doc">取消 SAP HANA 的备份操作</block>
   <block id="68e32079f812553771749d1bb9d274ff" category="summary">在准备备份或克隆资源时，您可能会发现以图形方式显示主存储和二级存储上的所有备份和克隆非常有用。</block>
   <block id="922c1e484efed735234f02ac16b9c465" category="paragraph">您可以在管理副本视图中查看以下图标，以确定备份和克隆在主存储还是二级存储（镜像副本或存储副本）上可用。</block>
@@ -1165,8 +1138,6 @@ log_backup_0_0_0_0.161518551942
   <block id="e1a7771495dc1fe7824ecbb848144f84" category="paragraph">备份和克隆的详细信息以表格式显示。</block>
   <block id="8decbf1aae0caf98d11e0d7812d18fa5" category="list-text">从表中选择备份，然后单击数据保护图标以执行还原，克隆和删除操作。</block>
   <block id="54473c2cfe1570548e51b95d5d44628f" category="admonition">您不能重命名或删除二级存储上的备份。</block>
-  <block id="80720ca63de6ce126b5aefa74149e369" category="list-text">如果要删除克隆，请从表中选择此克隆，然后单击 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>。</block>
-  <block id="f5236905507f722bdfe8fab4cdd4de2b" category="list-text">如果要拆分克隆，请从表中选择此克隆，然后单击 <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="349cd6d8e61213a447b8c5adb6059071" category="summary">在环境中安装适用于 SAP HANA 数据库的插件时，您可以使用 SnapCenter 备份，还原和克隆 SAP HANA 数据库及其资源。您还可以执行支持这些操作的任务。</block>
   <block id="d7e57286a93aa6e133dea4119815f1e5" category="doc">使用适用于 SAP HANA 数据库的 SnapCenter 插件可以执行的操作</block>
   <block id="753bcb78018d8547668b0dda3334e5a2" category="list-text">添加数据库。</block>
@@ -1221,7 +1192,6 @@ log_backup_0_0_0_0.161518551942
   <block id="cee248575d109b963f54afafda4720a1" category="paragraph">HDBSQL 操作系统用户</block>
   <block id="596bf9414108fb79d00ec3039e739625" category="paragraph">输入为其配置 HDB 安全用户存储密钥的用户名。     对于 Windows ， HDBSQL 操作系统用户必须是系统用户。因此，您必须为系统用户配置 HDB 安全用户存储密钥。</block>
   <block id="44dab87fe2da08cd26ee4f07dbdf1d56" category="list-text">在提供存储占用空间页面中，选择一个存储系统并选择一个或多个卷， LUN 和 qtree ，然后单击 * 保存 * 。</block>
-  <block id="266587454e01a92f0bfd85f3e920b6e9" category="paragraph">可选：您可以单击 *<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>* 图标，用于从其他存储系统添加更多卷， LUN 和 qtree 。</block>
   <block id="88b9a84562729de4f24eef1b144f1867" category="paragraph">此时将显示数据库以及 SID ，插件主机，关联的资源组和策略以及整体状态等信息</block>
   <block id="3f1fe53287c04e073da002e39b799896" category="paragraph">如果要为用户提供对资源的访问权限，则必须将资源分配给用户。这样，用户就可以执行对分配给他们的资产具有权限的操作。</block>
   <block id="7c5e9452cf45e8b93c00a930bef68613" category="inline-link-macro">添加用户或组并分配角色和资产</block>
@@ -1277,7 +1247,6 @@ log_backup_0_0_0_0.161518551942
   <block id="294b56a283e4d5bb64865a3cf0a721fa" category="list-text">DINSTALL_LOG_name 指定日志文件的名称。</block>
   <block id="b3f72639442ac8dbec9806a234d5e8db" category="list-text">编辑 /&lt; 安装目录 &gt;/NetApp/snapcenter/SCC/etc/SC_SMS_Services.properties 文件，然后添加 plugins_enabled = HANA ： 3.0 参数。</block>
   <block id="550b8e3545b2126ab5138fd027e787fa" category="list-text">使用 Add-Smhost cmdlet 和所需参数将主机添加到 SnapCenter 服务器。</block>
-  <block id="9e9b8895f32adb6f730895bc11f2874a" category="paragraph">有关可与命令结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="15672c6e3417ee4aa0cd7381b560f34d" category="summary">您可以使用 SnapCenter 还原资源。还原操作的功能取决于您使用的插件。</block>
   <block id="d697fbdd5eef7a80e3797fe363484b61" category="doc">还原资源备份</block>
   <block id="6f07fad9174a2429e52c321216b14548" category="list-text">如果要将 Snapshot 副本复制到镜像或存储， SnapCenter 管理员必须已为您分配源卷和目标卷的 Storage Virtual Machine （ SVM ）。</block>
@@ -1305,7 +1274,6 @@ log_backup_0_0_0_0.161518551942
   <block id="53582adf49551bf81650e7c9447e3a03" category="paragraph">您还必须指定发件人和收件人电子邮件地址以及电子邮件主题。此外，还必须在 * 设置 * &gt; * 全局设置 * 页面中配置 SMTP 。</block>
   <block id="edc25de414c7fe73d241458dab7bca2b" category="summary">如果单个自定义插件资源不属于任何资源组，您可以从 " 资源 " 页面备份该资源。您可以按需备份资源，或者，如果资源已附加策略并配置了计划，则会根据计划自动进行备份。</block>
   <block id="8ffa4ba0dd2df5995fd397c72a149679" category="doc">备份各个自定义插件资源</block>
-  <block id="d9519d94a3a4c5d7cfd38a6562e76409" category="paragraph">单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>，然后选择主机名和资源类型以筛选资源。然后，您可以单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
   <block id="80cb8ef1d01a491a4a563ec56f39cedc" category="list-text">在资源页面中，如果要使用自定义名称，请选中 * 对 Snapshot 副本使用自定义名称格式 * 复选框，然后为 Snapshot 副本名称输入自定义名称格式。</block>
   <block id="16bfcf20ed729d5958d62a1310952406" category="paragraph">选择紧急，中或宽松以指定 Snapshot 副本操作完成的等待时间。</block>
   <block id="6ab61c7e4778c57cf88bc1b95a583d05" category="list-text">单击 * 脚本 * 箭头可运行用于暂停， Snapshot 副本和取消静默操作的 PRE 和 POST 命令。您也可以在退出备份操作之前运行 PRE 命令。</block>
@@ -1313,8 +1281,6 @@ log_backup_0_0_0_0.161518551942
   <block id="b6b1826c899350995a39684ee19f8c7d" category="list-text">单击 * 自定义配置 * 箭头，然后输入使用此资源的所有作业所需的自定义值对。</block>
   <block id="f02ae06c15b2bac3b80b81485cd916ce" category="paragraph">SnapCenter 创建存储级别的 Snapshot 副本</block>
   <block id="e668102d5b8a83e66e31f5c42dcbb239" category="paragraph">SnapCenter 以使用适用于 Windows 的插件将文件系统置于一致状态，然后创建 Snapshot 副本</block>
-  <block id="be00178f4e91d4901871234d117ca9d0" category="admonition">您也可以单击来创建策略 <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>。</block>
-  <block id="99b0a37a3e506683141bfd2275a4beb2" category="list-text">单击 <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block> 在要配置计划的策略的 Configure Schedules 列中。</block>
   <block id="d89a925c7347eda26320229d83214fd3" category="paragraph">其中， _policy_name_ 是选定策略的名称。</block>
   <block id="6b4dbd62846fc1dc78b9f63f11af9c78" category="list-text">如果已对资源应用多个策略，请从 * 策略 * 下拉列表中选择要用于备份的策略。</block>
   <block id="75358aefb0b5382303d826391e171b80" category="summary">使用原生模式开发此插件。</block>
@@ -1369,8 +1335,6 @@ Snapshot副本操作。</block>
   <block id="dd4b762c191c7a235ce898c094749679" category="paragraph">您可以从添加主机页面安装自定义插件和存储插件。</block>
   <block id="a344a2fc65197b27dcccc38ac1ef85a3" category="inline-link-macro">添加主机并在远程主机上安装插件软件包。</block>
   <block id="a5f00a79eb947021702cee9fc1d05354" category="paragraph"><block ref="a5f00a79eb947021702cee9fc1d05354" category="inline-link-macro-rx"></block></block>
-  <block id="b6ddf325474f53377de3e17f65c983f3" category="inline-link">NetApp 存储自动化商店</block>
-  <block id="56cb38ae9f515c555dfc8601fd4c0070" category="paragraph">NetApp 还提供 MySQL ， MaxDB ， DB2 ， Sybase ， DPGLUE ， MongoDB ， ORASCPM 和 PostgreSQL 自定义插件。这些插件可从下载<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>。</block>
   <block id="022c56789408e44b04cf1944babfa527" category="admonition">SnapCenter 支持策略将涵盖对 SnapCenter 自定义插件框架，核心引擎和关联 API 的支持。支持范围不包括插件源代码以及基于自定义插件框架构建的关联脚本。</block>
   <block id="07af457ed5409f58b0d5ca2b41b5ec39" category="inline-link-macro">为您的应用程序开发一个插件</block>
   <block id="4a7e6c3a47ec940f7e3059981cd146da" category="paragraph">您可以参考创建自己的自定义插件 <block ref="9ef4188c6ecd9ed20479c22e2842115e" category="inline-link-macro-rx"></block>。</block>
@@ -1418,7 +1382,6 @@ Snapshot副本操作。</block>
   <block id="86de8a90b3fba9ddc4880b8903987555" category="list-text">您必须拥有 <block ref="4ad0bd1144546248adc0fb1c490ceec4" category="inline-link-macro-rx"></block>。</block>
   <block id="797f1e031962d70e46335925184febf4" category="list-text">您必须已将插件上传到 SnapCenter 服务器。</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">关于此任务</block>
-  <block id="eb609425665410a2e3cc5d5000880798" category="paragraph">您还可以为 MySQL 和 DB2 应用程序添加资源。这些插件可从下载<block ref="14adb94a4faec9ea0e0992d90e98b640" category="inline-link-rx"></block>。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
   <block id="0b5045b3b137ebb25cf08b5081075426" category="list-text">在左侧导航窗格中，选择*Resoles*，然后从列表中选择相应的插件。</block>
   <block id="b828f6db4e08909e879dfbf229208eff" category="list-text">在“资源”页面中，选择*Add ResResource *。</block>
@@ -1564,8 +1527,6 @@ SnapCenter服务器、您可以选择要在特定主机上部署的所需版本�
   <block id="c1d36bef52fc074303f12c52de7b144f" category="list-text">单击 * 上传 * 。</block>
   <block id="14c63a85dc0d2eb17d6a4de481e630f9" category="paragraph">上传软件包之前，会验证压缩后的自定义插件文件夹中的描述符 .xml 文件。</block>
   <block id="22b9c22ece0544103d4ef5fde3f3591c" category="paragraph">此时将列出上传到 SnapCenter 服务器的自定义插件。</block>
-  <block id="00ebf5cec061915cd0462d73602dcad8" category="inline-link">NetApp 自动化商店</block>
-  <block id="fa5ad2e8d730251bd90eea875f95091c" category="paragraph">如果要管理 MySQL 或 DB2 应用程序，可以使用 NetApp 提供的 MySQL 和 DB2 自定义插件。MySQL 和 DB2 自定义插件可从获取<block ref="480a3096e7d732b8f84f20e353e713fd" category="inline-link-rx"></block></block>
   <block id="ab443ca6692007d7b4d66d4e3044cbd8" category="paragraph">如果未选中 * 跳过预检查 * 复选框，则主机将通过验证以验证主机是否满足安装插件的要求。磁盘空间， RAM ， PowerShell 版本， .NET 版本，位置（对于 Windows 插件）和 Java 版本（对于 Linux 插件）均已根据最低要求进行验证。如果不满足最低要求，则会显示相应的错误或警告消息。</block>
   <block id="6edd2daf14dde352ee9ebb9ecbfb2fc4" category="summary">使用 Perl 开发此插件。</block>
   <block id="3f272cbd9f3d98a46dc5be01d6d1c28f" category="doc">基于 Perl 的开发</block>
@@ -1636,7 +1597,6 @@ SnapCenter服务器、您可以选择要在特定主机上部署的所需版本�
   <block id="652adaef4ef8ab71be391a952ace680c" category="list-text">从表中选择备份，然后单击数据保护图标以执行还原，克隆，重命名和删除操作。</block>
   <block id="53ad3fdb1526bfd9b033d7e9b88ea6e2" category="admonition">您不能重命名或删除二级存储系统上的备份。</block>
   <block id="043c647bbfcefaa1da5bb7d1e9fe7eb4" category="admonition">您不能重命名主存储系统上的备份。</block>
-  <block id="be966cb36ed036d9d34f4c527755cbe8" category="list-text">如果要删除克隆，请从表中选择此克隆，然后单击 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block> 删除克隆。</block>
   <block id="8c1af9a95c5ff9086ee5697a78397ae5" category="summary">通过 SnapCenter 服务器，您可以将应用程序作为 SnapCenter 的插件进行部署和管理。</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="doc">概述</block>
   <block id="72631a8144cabf57a431e307c720be4b" category="paragraph">通过 SnapCenter 服务器，您可以将应用程序作为 SnapCenter 的插件进行部署和管理。
@@ -1715,10 +1675,8 @@ MySQLDB_master从</block>
 在每种插件开发方式下详细介绍了和。</block>
   <block id="caef6d3f9e7cdd9ed1d3eaabe29db549" category="summary">如果要保护自定义插件资源，应安装和设置 SnapCenter 自定义插件。</block>
   <block id="d9ac41630ae6a20177466403e2d328d8" category="doc">SnapCenter 自定义插件的安装工作流</block>
-  <block id="86f7f637d3819a7b4814644b7f8d8972" category="image-alt">scc 安装配置工作流</block>
   <block id="0f06c6acfdc3dffd800e63c8779e7702" category="paragraph"><block ref="0f06c6acfdc3dffd800e63c8779e7702" category="inline-link-macro-rx"></block></block>
   <block id="d586cfbb655ff9a83e5820c52931584f" category="doc">还原自定义插件资源</block>
-  <block id="87dee260ac24c847f6318306d701cdaf" category="paragraph">您也可以手动或在脚本中使用 PowerShell cmdlet 执行备份，还原和克隆操作。有关 PowerShell cmdlet 的信息，请使用 SnapCenter cmdlet 帮助或参见<block ref="3f0d4c4b3a1c9cfa1189bb7484d60c1b" category="inline-link-rx"></block>。</block>
   <block id="6ad653f84eed0c76647686ab11205da7" category="doc">如何使用资源，资源组和策略保护自定义插件资源</block>
   <block id="fa195f3aeab33bc32aac81731432394a" category="list-text">资源通常是指使用 SnapCenter 备份或克隆的数据库， Windows 文件系统或 VM 。</block>
   <block id="5933757c4b9d748208a6193f5fbd4b1d" category="list-text">SnapCenter 资源组是主机或集群上的一组资源。</block>
@@ -1739,7 +1697,6 @@ MySQLDB_master从</block>
   <block id="c48a2f5430d3aff55420b834363bcc46" category="doc">SnapCenter 自定义插件支持的存储类型</block>
   <block id="d21fbb2a5ce79a2a4ef0780b73023b2e" category="paragraph">VM主机上的物理挂载和NFS直接挂载(不支持VMDK和RDM LUN。)</block>
   <block id="8c922e6a0134954b667b072d00b58ce3" category="doc">使用 PowerShell cmdlet 克隆备份</block>
-  <block id="7c17a5f75782af4f820b286a07f51777" category="paragraph">有关 PowerShell cmdlet 的信息，请使用 SnapCenter cmdlet 帮助或参见<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="e8afddd41cf3a716324442f7a4538460" category="list-text">列出可使用 Get-SmBackup 或 Get-SmResourceGroup cmdlet 克隆的备份。</block>
   <block id="b92d70c39b6e5b77f828b04b1f8cf2e7" category="paragraph">此示例显示有关指定资源组的信息：</block>
   <block id="490bfe5ade57157a35bf58b686acb1cf" category="list-text">使用 New-SmClone cmdlet 从克隆资源组或现有备份启动克隆操作。</block>
@@ -1778,7 +1735,6 @@ MySQLDB_master从</block>
   <block id="8417b61ea6ac680285a40b7f679829a2" category="list-text">从“通知”页面的*电子邮件首选项*下拉列表中，选择要发送电子邮件的场景。</block>
   <block id="665e27cacd5b140b3ca5a518bbd41724" category="doc">备份自定义插件资源的资源组</block>
   <block id="0dd1baa389f6493ff89ba4f1d23f127b" category="list-text">如果要将具有 SnapMirror 关系的资源备份到二级存储，则分配给存储用户的 ONTAP 角色应包括 " `snapmirror all` " 特权。但是，如果您使用的是 "`vsadmin` " 角色，则不需要 " `snapmirror all` " 特权。</block>
-  <block id="862569d2dbddc7f68305bb1aa73accec" category="paragraph">您可以通过在搜索框中输入资源组名称或单击来搜索资源组 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 并选择标记。然后，您可以单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
   <block id="44119ab6cb16491e354c029de67b6782" category="list-text">如果已将多个策略与资源组关联，请从 * 策略 * 下拉列表中选择要用于备份的策略。</block>
   <block id="656764dc4fc9063500ad9c4607e32b3b" category="paragraph"><block ref="656764dc4fc9063500ad9c4607e32b3b" category="inline-link-rx"></block></block>
   <block id="f6e291f8da5e2bfb20622fac181e8aca" category="list-text">如果要备份 VMDK 上的应用程序数据，并且适用于 VMware vSphere 的 SnapCenter 插件的 Java 堆大小不够大，则备份可能会失败。要增加 Java 堆大小，请找到脚本文件 /opt/netapp/init_scripts/scvservice 。在此脚本中、将显示<block ref="f751567fc5d2c300402db2d50de19910" prefix=" " category="inline-code"></block> 命令启动SnapCenter VMware插件服务。将该命令更新为以下内容：<block ref="d66632e2d1ccce4227411d877d93c152" prefix=" " category="inline-code"></block>。</block>
@@ -1792,7 +1748,6 @@ MySQLDB_master从</block>
   <block id="fab91412eb5d45bdeeca565417bd43bb" category="summary">备份工作流包括规划，确定要备份的资源，管理备份策略，创建资源组和附加策略，创建备份以及监控操作。</block>
   <block id="33e8da2f20646df222fc0acf35201fe4" category="doc">备份自定义插件资源</block>
   <block id="f395a8aee7b6b7007a1b6a64b54468f1" category="image-alt">备份工作流</block>
-  <block id="b6a1d5caea1f8fdc446d41a31f9cfe3e" category="paragraph">您也可以手动或在脚本中使用 PowerShell cmdlet 执行备份，还原和克隆操作。有关 PowerShell cmdlet 的详细信息，请使用 SnapCenter cmdlet 帮助或参见<block ref="3f0d4c4b3a1c9cfa1189bb7484d60c1b" category="inline-link-rx"></block></block>
   <block id="517a125fd46ee1a60309a280447487c0" category="summary">备份资源包括与 SnapCenter 服务器建立连接，添加资源，添加策略，创建备份资源组和备份。</block>
   <block id="d2a5f76428abadccd7b24ea08a0eee1e" category="doc">使用 PowerShell cmdlet 备份资源</block>
   <block id="d278818a36e5f43a96b7082ec24a25e0" category="paragraph">此示例添加了以下资源：</block>
@@ -1801,7 +1756,6 @@ MySQLDB_master从</block>
   <block id="521a461a889ed9e3e14096d08771f661" category="paragraph">lun attribute show</block>
   <block id="845a2fac965d9f41d0e11a08d1c7197e" category="paragraph">LUN 几何结构</block>
   <block id="e734e6e2e702d38ebab6ed3c050a5e72" category="doc">克隆自定义插件资源备份</block>
-  <block id="3c408f97e0a21affc59c011044498f97" category="paragraph">您也可以手动或在脚本中使用 PowerShell cmdlet 执行备份，还原和克隆操作。有关 PowerShell cmdlet 的详细信息，请使用 SnapCenter cmdlet 帮助或参见<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="3c67b94e6822d49d50263c7db382c071" category="summary">使用 Java 模式开发此插件。</block>
   <block id="731641b378060335e231f40a61efb08e" category="doc">Java 模式</block>
   <block id="8a01447d4257ebcaab42390ee2f4240d" category="paragraph">Java 自定义插件直接与数据库，实例等应用程序交互。</block>
@@ -2037,13 +1991,7 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="2f66d67da390e5c77db3fc5e681393ab" category="list-text">如果在 NFS 环境中使用 Oracle 数据库，则必须至少为主存储或二级存储配置一个 NFS 数据 LIF ，才能执行挂载，克隆，验证和还原操作。</block>
   <block id="904e44e9990e7591adda05fc061919d3" category="list-text">如果 SVM 中有多个数据路径（ LIF ），则 SnapCenter 会选择适当的数据路径（ LIF ）来挂载 NFS 克隆卷。但是，如果要指定特定数据路径（ LIF ），则必须运行 Set-SvmPreferredDataPath CLI 。
 命令参考指南提供了更多信息。</block>
-  <block id="0d38af714784f793aaf023f367e4c39b" category="list-text">如果在 SAN 环境中使用 Oracle 数据库，请确保按照以下指南中所述的建议配置 SAN 环境：</block>
-  <block id="26b193fe4fa8dbe180bbe20800729e6b" category="inline-link">Linux Unified Host Utilities 的建议主机设置</block>
-  <block id="e705af1c7f38eac38e2f493fc039f70e" category="list-text"><block ref="e705af1c7f38eac38e2f493fc039f70e" category="inline-link-rx"></block></block>
-  <block id="e41304e7d689f8fed5c98620228184cf" category="inline-link">将 Linux 主机与 ONTAP 存储结合使用</block>
-  <block id="4261289fb5bad467a2ad973679d86c14" category="list-text"><block ref="4261289fb5bad467a2ad973679d86c14" category="inline-link-rx"></block></block>
   <block id="b1ada800560d7bd73c2da9a36d6ae229" category="inline-link">受 AIX Host Utilities 影响的主机设置</block>
-  <block id="9e202af09678a2aeb1c20235b8ed2aad" category="list-text"><block ref="9e202af09678a2aeb1c20235b8ed2aad" category="inline-link-rx"></block></block>
   <block id="ba09c94fed381b580a726fc94531b160" category="list-text">如果 Oracle 数据库位于 Oracle Linux 或 RHEL 操作系统中的 LVM 上，请安装最新版本的逻辑卷管理（ LVM ）。</block>
   <block id="8770246977269a639c8c2818412dc3ac" category="list-text">如果您使用的是适用于 Oracle 的 SnapManager ，并且希望迁移到适用于 Oracle 数据库的 SnapCenter 插件，则可以使用 sccli 命令 sc-migrate 将配置文件迁移到 SnapCenter 的策略和资源组。</block>
   <block id="4c893189fecc8b6e5c41ae931ffd7f89" category="list-text">如果要进行备份复制，请在 ONTAP 上配置 SnapMirror 和 SnapVault</block>
@@ -2058,7 +2006,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="92c488cfa68af6221db7fffbf4243861" category="image-alt">all_plug-ins_restore_Workflow</block>
   <block id="1ef6e64eb14d3b262db62b7d313ebbbe" category="summary">如果要保护 Oracle 数据库，应安装和设置适用于 Oracle 数据库的 SnapCenter 插件。</block>
   <block id="1cd8b2345e3fc8629233e588fdab2761" category="doc">适用于 Oracle 数据库的 SnapCenter 插件的安装工作流</block>
-  <block id="a19d33029ae6794cb5370530a85b7fe4" category="image-alt">SCO 安装配置工作流</block>
   <block id="0aaa1195903b8c3291fdc5c0850cc98a" category="summary">在克隆数据库之前定义策略可确保克隆操作成功。</block>
   <block id="f41173dd94f009e5a3617883b76d2aeb" category="doc">为 Oracle 数据库定义克隆策略</block>
   <block id="0b43fa1aa16b779f05178364e5c62664" category="section-title">支持克隆的备份类型</block>
@@ -2094,7 +2041,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="768f623632c4bc282d735245d72f0082" category="paragraph">如果资源组包含多个应用程序卷，则所有应用程序卷都应具有 SnapMirror 或 SnapVault 复制策略。</block>
   <block id="aa937e10b9927770901c4ad133aa81f7" category="paragraph">默认情况下，系统会创建一致性组（ CG ）备份。如果要创建基于卷的备份，应在 _web.config 文件中将 * 启用 OracleNdvVolumeBasedBackup* 的值设置为 true 。</block>
   <block id="19d66c8e9b37ee539bf11e5dc7a3d626" category="list-text">在左侧导航窗格中，单击 * 资源 * ，然后从列表中选择 Oracle 数据库插件。</block>
-  <block id="e169c75993af25a436c2276ecc3bbdda" category="paragraph">您可以通过在搜索框中输入资源组名称或单击 * 来搜索资源组<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>* ，然后选择标记。然后，您可以单击 *<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>* 以关闭筛选器窗格。</block>
   <block id="0bc92cf5f202f2c741414bccdc40afa9" category="admonition">验证操作仅对数据库执行，而不对应用程序卷执行。</block>
   <block id="0d7e311afcb478a86e539bf4d153c131" category="summary">如果要访问备份中的文件，您可以挂载一个或多个数据并仅记录备份。您可以将备份挂载到创建备份的同一主机，也可以挂载到具有相同类型的 Oracle 和主机配置的远程主机。如果您已手动挂载备份，则应在完成此操作后手动卸载备份。对于特定数据库，只能在主机上挂载一次数据库备份。执行操作时，只能挂载一个备份。</block>
   <block id="153a24bf2520bcf6ddf0f871f9d46cce" category="doc">挂载和卸载数据库备份</block>
@@ -2147,7 +2093,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="7175c7653c984fca11c9b01879ca8386" category="paragraph">将某个资源组视为定义了您要保护的内容，以及您希望在日期和时间保护的时间。将某个策略视为定义了要保护的 _how _ 。</block>
   <block id="a1252ded99561e113314773288824c6e" category="paragraph">例如，如果要备份主机的所有数据库，则可以创建一个资源组，其中包含主机中的所有数据库。然后，您可以将两个策略附加到资源组：每日策略和每小时策略。在创建资源组并附加策略时，您可以将资源组配置为每天执行完整备份，并执行另一个计划，以便每小时执行一次日志备份。</block>
   <block id="9c124c0fc8c6cc2725dad57b45c85eb0" category="paragraph">下图显示了数据库的资源，资源组和策略之间的关系：</block>
-  <block id="c3bc5ff261b700cf2f6140bad7454c1c" category="image-alt">SCO 资源组策略</block>
   <block id="bc9f89729bc570541b5b790a7dc8c706" category="summary">您可以还原和恢复已损坏或丢弃的可插拔数据库（ PDB ），而不会影响容器数据库（ CDB\ ）中的其他 PDB 。SnapCenter 使用 RMAN 对 PDB 执行时间点恢复 \ （ PITR\ ）。</block>
   <block id="d1af1ec910f75c39d71a8c724311cf70" category="doc">使用时间点恢复还原和恢复可插拔数据库</block>
   <block id="67c0f00b8c6868021a12f861ec356775" category="paragraph">您可以还原和恢复已损坏或丢弃的可插拔数据库（ PDB ），而不会影响容器数据库（ CDB ）中的其他 PDB 。SnapCenter 使用 RMAN 对 PDB 执行时间点恢复（ PITR ）。</block>
@@ -2231,7 +2176,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="6987bf979aa46f2f012544689e530ba8" category="paragraph">要成功发现数据库，数据库应至少处于已挂载状态或更高状态。在 Oracle Real Application Clusters （ RAC ）环境中，要成功发现数据库实例，执行发现的主机中的 RAC 数据库实例应至少处于挂载状态或以上。只能将成功发现的数据库添加到资源组中。</block>
   <block id="719fa5cf3cf0a0fd65399dc0b9ba9597" category="paragraph">如果已删除主机上的 Oracle 数据库， SnapCenter 服务器将无法识别并列出已删除的数据库。您应手动刷新资源以更新 SnapCenter 资源列表。</block>
   <block id="d5637dc8626943be066538cf923050b5" category="list-text">在资源页面中，从 * 视图 * 列表中选择 * 数据库 * 。</block>
-  <block id="ddb5eb0de214c4f8ca63b100be025650" category="paragraph">单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>，然后选择主机名和数据库类型以筛选资源。然后，您可以单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 图标以关闭筛选器窗格。</block>
   <block id="a52716605edda155f499cf4c4572c6d5" category="list-text">单击 * 刷新资源 * 。</block>
   <block id="ffe07db18130be1419f3e22efa2b9af9" category="paragraph">在 RAC 单节点方案中，数据库会在当前托管它的节点上作为 RAC 数据库被发现。</block>
   <block id="03ca1a8893eafac750fe33e2998cfff3" category="paragraph">* 结果 *</block>
@@ -2521,7 +2465,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="5299a9981347e8ed830ad1271991cfef" category="paragraph">否则，请选择配置了 `sys` 用户或具有适用于克隆主机的 `sysasm` 特权的用户的 Oracle ASM 凭据。</block>
   <block id="f437b2d19ac957d858a486434d127abb" category="paragraph">您必须将此预处理存储在此路径中的 _/var/opt/snapcenter/spl/scripts_ 或任何文件夹中。默认情况下，系统会填充 _/var/opt/snapcenter/spl/scripts_ 路径。如果您已将脚本放置在此路径中的任何文件夹中，则需要提供直到放置此脚本的文件夹的完整路径。</block>
   <block id="16fd6c5ba15e0b08636432410b53736d" category="list-text">在 Database parameter settings 部分中，修改用于初始化数据库的预先填充的数据库参数值。</block>
-  <block id="bb0b2c5483daeba4571c62a9f8c145a2" category="paragraph">您可以单击 * 来添加其他参数<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>*</block>
   <block id="740d25cb39f88917f1483c14a13c4359" category="paragraph">如果您使用的是 Oracle 标准版，并且数据库以归档日志模式运行，或者您希望从归档重做日志还原数据库，请添加参数并指定路径。</block>
   <block id="312ab5f954ecd0e93c772e23e3efbb64" category="list-text">log_archive_dest</block>
   <block id="9d702669585828b8f94fde687d36b914" category="list-text">log_archive_duplex_dest</block>
@@ -2618,7 +2561,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="242cdc11ae22f217c93ae40e14e96194" category="paragraph">如果您为各个资源组设置了凭据，并且用户名不具有完全管理员权限，则用户名必须至少具有资源组和备份权限。</block>
   <block id="7b13621f41f0146d0ffd2434af94438a" category="paragraph">如果已启用 Oracle 数据库身份验证，则 "Resources" 视图中将显示一个红色挂锁图标。您必须配置数据库凭据才能保护数据库，或者将其添加到资源组以执行数据保护操作。</block>
   <block id="9d84c90ce04a969ca09498823506ba1f" category="admonition">如果在创建凭据时指定的详细信息不正确，则会显示一条错误消息。您必须单击 * 取消 * ，然后重试。</block>
-  <block id="f8cbfb3254bb5bd20533e8d1e586899c" category="list-text">单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>，然后选择主机名和数据库类型以筛选资源。</block>
   <block id="5de6e0a70b653c8dab85d2d2bccf04ae" category="list-text">选择数据库，然后单击 * 数据库设置 * &gt; * 配置数据库 * 。</block>
   <block id="6df18cfefa59a0d65ea120d8247b7ba8" category="list-text">在配置数据库设置部分的 * 使用现有凭据 * 下拉列表中，选择在 Oracle 数据库上执行数据保护作业时应使用的凭据。</block>
   <block id="bc36b053b483bc3f05afdf22b15ab4cf" category="admonition">Oracle 用户应具有 sysdba 权限。</block>
@@ -2674,7 +2616,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="d832fec799a3a70760ed7fe13bef388d" category="list-text">如果您已使用 Oracle Recovery Manager （ RMAN ）对备份进行了编目，则无法重命名这些已编目的备份。</block>
   <block id="123f58b5f6c3fc41829ae40b968fcda4" category="paragraph">如果分配给 SnapmirrorStatusUpdateWaitTime 的值小于此值，则即使数据和日志卷已成功保护，镜像和存储备份副本也不会列在拓扑页面上。您应使用 _set-SmConfigSettings_ PowerShell cmdlet 增加分配给 SnapmirrorStatusUpdateWaitTime 的值。</block>
   <block id="11dbb257c91d345a6a0cee430763b610" category="paragraph">有关可与命令结合使用的参数及其说明的信息，可通过运行 get-help _command_name_ 来获取。</block>
-  <block id="c2e2989cd34de9d2b93fbc71f60ffe4e" category="paragraph">或者，您也可以参考<block ref="868bc9c3fbc71eae2d899862af6d942e" category="inline-link-rx"></block> 或<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="23257e3404df9a371ee4e65b5f6db441" category="summary">克隆 Oracle 数据库之前，您应确保满足前提条件。</block>
   <block id="c3f3510a6fc8f24504e19e3fa075dcd8" category="doc">克隆 Oracle 数据库的要求</block>
   <block id="bfb53a478bb9e82caa1db74ed66d2437" category="list-text">您应已使用 SnapCenter 创建数据库备份。</block>
@@ -2819,7 +2760,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="d8c3b27e33a2869282039b9ff6a23fc5" category="doc">备份应用程序卷</block>
   <block id="eba902edb76de30c0b6c9d32f53d05ed" category="paragraph">如果应用程序卷不属于任何资源组，您可以从 " 资源 " 页面备份应用程序卷。</block>
   <block id="5fdfa1dd7a57ddc13008214530f96a84" category="list-text">在资源页面中，从 * 视图 * 列表中选择 * 应用程序卷 * 。</block>
-  <block id="520f85e55e2b17285c39b1ad458556a0" category="list-text">单击 *<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>* ，然后选择主机名和数据库类型以筛选资源。</block>
   <block id="c6cc754896fef7ff6303bf792f45397f" category="list-text">选择要备份的应用程序卷。</block>
   <block id="fb532da51d82ae5118e8f3d5cb3bbd50" category="paragraph">此时将显示 Application volume-protect 页面。</block>
   <block id="8d2ba99665e114b5e2a9d74a31cdf554" category="list-text">在资源页面中，执行以下操作：</block>
@@ -2971,7 +2911,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="bfed89e7bc468020d264ba44570cb258" category="list-text">您可以从 " 监控 " 页面或 " 活动 " 窗格取消备份操作。</block>
   <block id="6ead40700edacacddf2e163b14792949" category="list-text">除了使用 SnapCenter 图形用户界面之外，您还可以使用命令行界面命令取消操作。</block>
   <block id="288e6f17e0e4e6641bd8834d75c83cc3" category="list-text">选择操作并单击 * 取消作业 * 。</block>
-  <block id="53606748062c599b4ce202237295ee32" category="list-text">启动备份作业后，单击 <block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block> 在活动窗格上查看五个最新操作。</block>
   <block id="f99ed48ad453fc5752d3cb633588ec73" category="paragraph">操作将被取消，资源将还原到原始状态。</block>
   <block id="1a75cd98b02615b4d68d5425fefe32ad" category="paragraph">如果您取消的操作在 " 正在取消 " 或 " 正在运行 " 状态下无响应，则应运行 " 取消 - 短作业 -JobID &lt;int&gt; -Force " 以强制停止备份操作。</block>
   <block id="8b6b14f8ee2bef8618a7a68823627672" category="summary">如果不再需要，可以删除可插拔数据库 \ （ PDB ）的克隆。</block>
@@ -2981,7 +2920,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="0a86810ca19714269dbf245dd700442c" category="admonition">PDB 克隆不会显示在清单或资源视图中。</block>
   <block id="1e5afaa745cf150ad4119d4e1119ae56" category="list-text">从资源或资源组视图中选择源容器数据库（ CDB ）。</block>
   <block id="09927e90b474cc9f796b7d9acc2e1efb" category="list-text">在管理副本视图中，从主存储系统或二级（镜像或复制的）存储系统中选择 * 克隆 * 。</block>
-  <block id="6927683b616825cb773183b147e9e3fa" category="list-text">选择 PDB 克隆（ targetCDB ： PDBClone ），然后单击 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="241427aa082547643032d9ac47ab0dda" category="summary">在还原 Oracle 数据库之前，您应确保满足前提条件。</block>
   <block id="e4efd46999918866976643fdf1c3041d" category="doc">还原 Oracle 数据库的要求</block>
   <block id="58f28c7080a3b5a4d907dfdece1ece75" category="list-text">您应已定义还原和恢复策略。</block>
@@ -3017,11 +2955,9 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="80e5eb37566e84270d23254e8f050156" category="list-text">在资源页面中，从 * 视图 * 列表中选择 * 应用程序卷 * 以查看您添加的所有应用程序卷。</block>
   <block id="088ea09c5845b030ebf8ae5975d090cb" category="section-title">修改应用程序卷</block>
   <block id="6c6c48e7a3a56b7164aaa8b8eb204354" category="paragraph">如果未创建备份，则可以修改添加应用程序卷时指定的所有值。如果创建备份，则只能修改存储系统详细信息。</block>
-  <block id="41287e6665f1099d8af67183be117ffc" category="list-text">单击 <block ref="b170295de64fe7950f9915b4f1c0fac4" category="inline-image-macro-rx" type="image"></block> 以修改值。</block>
   <block id="c1911e0054742b788fdc5f1e0f6cc47e" category="section-title">删除应用程序卷</block>
   <block id="6aa91ea36ae383d376ecec0ff3aa3575" category="paragraph">删除应用程序卷时，如果存在与应用程序卷关联的任何备份，则应用程序卷将置于维护模式，并且不会创建新备份，也不会保留先前的备份。如果没有关联的备份，则会删除所有元数据。</block>
   <block id="27b451b71b83ad1f7c199e95beacd26c" category="paragraph">如果需要，可以使用 SnapCenter 撤消删除操作。</block>
-  <block id="13840d01141e8e459d92602ca84e3418" category="list-text">单击 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block> 以修改值。</block>
   <block id="6faa8eb5ad385d7b9d987de9ed13bb96" category="summary">SnapCenter 允许您在克隆数据库时执行预处理和后处理脚本时使用预定义的环境变量。</block>
   <block id="23623438990ee2646061fa46ca8d9c90" category="doc">克隆特定的预处理程序和后处理程序的预定义环境变量</block>
   <block id="36c03e148801ad7963d0bd10e6e81e5b" category="paragraph">* 克隆数据库时支持的预定义环境变量 *</block>
@@ -3197,7 +3133,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="4cdff21e1a3b3a11f16dc574421a1599" category="doc">拆分 Oracle 数据库克隆</block>
   <block id="b1b82801e9c78c50ebcf99fde0aea87a" category="list-text">拆分克隆时，克隆的备份副本将被删除。</block>
   <block id="cba97cc8f5b2bb7297dd2360ae8b024a" category="list-text">有关克隆拆分操作限制的信息，请参见<block ref="3ae98799f9586e965a749204c2b3e8f9" category="inline-link-rx"></block>。</block>
-  <block id="932be043b11149e991bf82c52befcebf" category="list-text">选择克隆的资源（例如数据库或 LUN ），然后单击 <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="c073ee3bf31639ca8cd5dfdf2fe18185" category="paragraph">如果 SMCore 服务重新启动，并且执行克隆拆分操作的数据库在 "Resources" 页面中列为克隆，则克隆拆分操作将停止响应。您应运行 _Stop-SmJob_ cmdlet 停止克隆拆分操作，然后重试克隆拆分操作。</block>
   <block id="103e35e260868e1aa1c36274a7301158" category="paragraph">如果要使用较长的轮询时间或较短的轮询时间来检查克隆是否已拆分，则可以更改 SMCoreServiceHost.exe 文件中 CloneSplitStatusCheckPollTime 参数的值，以设置 SMCore 轮询克隆拆分操作状态的时间间隔。此值以毫秒为单位，默认值为 5 分钟。</block>
   <block id="fbfa277a055cde6a44aa257516ef119c" category="admonition">如果正在执行备份，还原或其他克隆拆分，则克隆拆分启动操作将失败。只有在运行的操作完成后，才应重新启动克隆拆分操作。</block>
@@ -3205,7 +3140,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="b50ed45fe1d5aaeff11017e2203d685b" category="doc">可插拔数据库的拆分克隆</block>
   <block id="9a74e4c2ef4e109873578f5a78083805" category="paragraph">您可以使用 SnapCenter 拆分克隆可插拔数据库（ PDB ）。</block>
   <block id="0841514f865605a705539d269e140769" category="paragraph">如果您为要克隆 PDB 的目标 CDB 创建备份，则在拆分 PDB 克隆时，克隆的 PDB 也会从包含克隆 PDB 的目标 CDB 的所有备份中删除。</block>
-  <block id="fbea596c70f1dfc79ca7ad9bfdcc546a" category="list-text">选择 PDB 克隆（ targetCDB ： PDBClone ），然后单击 <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="9349160e3cfa891f6e3eab62e5e808aa" category="summary">您可以使用 SnapCenter 克隆应用程序卷备份，拆分克隆并删除克隆。</block>
   <block id="bfea201e67b6d8c8dfeba47e522016aa" category="doc">克隆应用程序卷备份</block>
   <block id="32b6ce3b4c07da5c7a5e9de96444b2c2" category="paragraph">您可以使用 SnapCenter 克隆应用程序卷备份。</block>
@@ -3215,12 +3149,10 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="9368d3530000e47eb158e87cc138d4d2" category="paragraph">指定资源名称。</block>
   <block id="b171e637bb7cf16f18741fbe5702d170" category="list-text">在脚本页面中，指定克隆前要执行的脚本的名称，用于挂载文件系统的命令以及克隆后要执行的脚本的名称。</block>
   <block id="056f16a497e3816baf36ca8bb1f47e69" category="section-title">拆分应用程序卷克隆</block>
-  <block id="04e3f50ebfc3fe23fe3b15e74ef0c167" category="list-text">选择克隆的资源，然后单击 <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="1ea3b0b9fdff483105222183288bb47b" category="section-title">删除应用程序卷克隆</block>
   <block id="84725751afcea79e33e8f51ae4a1add6" category="paragraph">如果您发现克隆不再需要，可以将其删除。您不能删除与其他克隆的源类似的克隆。</block>
   <block id="3f295f5098166bae5cf6c4e7ed277958" category="list-text">从列表中选择资源或资源组。</block>
   <block id="a64016381e6438b14094f8f349371c74" category="paragraph">此时将显示资源或资源组拓扑页面。</block>
-  <block id="d718de0b5487a29072ea2bbe613540c0" category="list-text">选择克隆，然后单击 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="f79f988986305ca48b434d9c452f0fdb" category="list-text">在删除克隆页面中，执行以下操作：</block>
   <block id="1e447fb792662667ec4578cd8ef8741b" category="list-text">在 * 克隆前删除 * 字段中，输入删除克隆前要执行的脚本的名称。</block>
   <block id="187e28de4999abb638ae7c5cf67e1a4f" category="list-text">在 * 卸载 * 字段中，输入命令卸载克隆，然后再删除克隆。</block>
@@ -3253,7 +3185,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="57af7cc9669227d9ac6afec5db802561" category="paragraph">选择 * 从所有目标删除归档日志 * 。</block>
   <block id="be859d432cb8f72f5fb9b4c1622d56b1" category="paragraph">从属于备份一部分的日志目标中删除归档日志</block>
   <block id="3330083979ff2e07d7e4609ee2228f08" category="paragraph">选择 * 从属于备份一部分的目标中删除归档日志 * 。</block>
-  <block id="27f6bf9956fb5d538b6d1793de7a2624" category="paragraph"><block ref="27f6bf9956fb5d538b6d1793de7a2624" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9696f79f02f1b72ee2751fa3ac8cee1b" category="admonition">只有在备份过程中选择了归档日志文件时，才能保留归档日志备份。</block>
   <block id="1841ccf0461e2eaacdadd6d0965185ca" category="paragraph">创建本地 Snapshot 副本后更新 SnapMirror</block>
   <block id="5599318ff76ac470ccc995aab6f33577" category="paragraph">创建本地 Snapshot 副本后更新 SnapVault</block>
@@ -3762,7 +3693,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="3c8499d37e5b698773c087e64ded0e3e" category="list-text">要将资源从 * 可用资源 * 部分移至 " 选定资源 " 部分，请执行以下步骤之一：</block>
   <block id="d5e1fd204fed10a4447207586da4f7c6" category="list-text">选择 * 自动选择同一存储卷上的所有资源 * 可将同一卷上的所有资源移动到 " 选定资源 " 部分。</block>
   <block id="6a56bc07f3745de1f0cdc0e035cac845" category="list-text">从 * 可用资源 * 部分中选择资源，然后单击右箭头将其移动到 * 选定资源 * 部分。</block>
-  <block id="326396bcf3264f58325650243635c607" category="list-text">在为选定策略配置计划部分中，单击 *<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>* 。</block>
   <block id="351f7bad3082107e47ad4d5178c303b5" category="list-text">在添加策略 _policy_name_ 的计划对话框中，指定开始日期，到期日期和频率来配置计划，然后单击 * 确定 * 。</block>
   <block id="1d40f8a03f97a2b7db68e496f7964df0" category="paragraph">您必须对策略中列出的每个频率执行此操作。已配置的计划将在 * 为选定策略配置计划 * 部分的已应用计划列中列出。</block>
   <block id="b527fc3a6976bd9e2f49e06db6a69f45" category="list-text">选择 Microsoft SQL Server 计划程序。</block>
@@ -3773,7 +3703,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="c77d16e2631c1e539982c0bc793f22b0" category="paragraph">此列表包含在 SnapCenter 中添加的所有 SQL Server 。您可以选择多个验证服务器（本地主机或远程主机）。</block>
   <block id="35a91e9ad1ffed78f81a00fbc833fa69" category="admonition">验证服务器版本应与托管主数据库的 SQL Server 的版本相匹配。</block>
   <block id="34098500b6237d2918a60eeb7bc52132" category="list-text">单击 * 加载定位器 * 以加载 SnapMirror 和 SnapVault 卷，以便在二级存储上执行验证。</block>
-  <block id="a69de308424c0233fb5435c6ed27ec7d" category="list-text">选择要为其配置验证计划的策略，然后单击 *<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>*</block>
   <block id="55fe9b117fac71b33a8f95f9010bde5a" category="paragraph">选择 * 运行计划的验证 * 。</block>
   <block id="b39614f1e3ff23cc5b5cd5fd6bf27259" category="inline-image-macro">用于编辑已配置计划的图标</block>
   <block id="5f11c7889df3330ff1f653f5e5702931" category="inline-image-macro">删除图标</block>
@@ -3799,7 +3728,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="3b9b501ce9ff4819d459190476007edc" category="paragraph">例如， customtext_policy_hostname 或 resource_hostname 。默认情况下， Snapshot 副本名称会附加时间戳。</block>
   <block id="fb87909a252e4e2dc396bcfb921e0428" category="list-text">在策略页面中，执行以下任务：</block>
   <block id="075e5d48960664645c5727a530a7c640" category="list-text">在策略部分中，从下拉列表中选择一个或多个策略。</block>
-  <block id="8651b9793bd6c1e48d295567e332b963" category="paragraph">您可以单击 * 来创建策略<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>* 以启动策略向导。</block>
   <block id="204b899f0e95e32b80ec8ea79f53c1ec" category="paragraph">在 * 为选定策略配置计划 * 部分中，将列出选定策略。</block>
   <block id="730f69a1c6fa686c684abab6e3e4ce4c" category="list-text">在*为策略添加计划*中<block ref="4595028aeeeb2fdba0f5fec9c2385d0d" prefix=" " category="inline-code"></block> 对话框中、配置计划、然后单击*确定*。</block>
   <block id="08fe75bd987fb2dedbe7641f478927f0" category="paragraph">此处<block ref="4595028aeeeb2fdba0f5fec9c2385d0d" prefix=" " category="inline-code"></block> 是所选策略的名称。</block>
@@ -3821,7 +3749,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="a1a0f86f12eb6f7b0a51545fae87d6ed" category="paragraph">以下工作流显示了必须执行备份操作的顺序：</block>
   <block id="a9a36931adb350bdf3480cb9845a8fc8" category="image-alt">SCSQL 备份工作流</block>
   <block id="780c1b490607a3963a4db9b069dbf1e2" category="admonition">如果选择非 NetApp LUN ，已损坏的数据库或正在还原的数据库，则 " 资源 " 页面上的 " 立即备份 " ， " 还原 " ， " 管理备份 " 和 " 克隆 " 选项将被禁用。</block>
-  <block id="551a33d207af23d33dc7ae8b0fcc767e" category="paragraph">您也可以手动或在脚本中使用 PowerShell cmdlet 执行备份，还原，恢复，验证和克隆操作。有关 PowerShell cmdlet 的详细信息，请使用 SnapCenter cmdlet 帮助或参见<block ref="3f0d4c4b3a1c9cfa1189bb7484d60c1b" category="inline-link-rx"></block></block>
   <block id="70a3b8963fff53a1f81a125297906687" category="section-title">SnapCenter 如何备份数据库</block>
   <block id="fe38a38405ced1973299d2b175c66a79" category="paragraph">SnapCenter 使用 Snapshot 副本技术备份 LUN 或 VMDK 上的 SQL Server 数据库。SnapCenter 通过创建数据库的 Snapshot 副本来创建备份。</block>
   <block id="05e0444569b01c1a835c376c06e5d120" category="paragraph">从资源页面选择数据库进行完整数据库备份时， SnapCenter 会自动选择驻留在同一存储卷上的所有其他数据库。如果 LUN 或 VMDK 仅存储一个数据库，则可以单独清除或重新选择该数据库。如果 LUN 或 VMDK 包含多个数据库，则必须清除或重新选择数据库作为一个组。</block>
@@ -3981,7 +3908,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="3bb68819532539f48f629ba62348a6c6" category="paragraph">例如，如果用户只能查看数据库的访问权限，则无法确定数据库的文件和属性，因此无法备份。</block>
   <block id="7d48eed4487109a3829d0196f297a492" category="admonition">如果您在 SQL Server 标准版上具有可用性组配置，则 SnapCenter 只能备份主数据库。</block>
   <block id="8057ae87eee7a0579409f47c9591745e" category="list-text">在资源页面的 * 视图 * 下拉列表中选择 * 数据库 * ， * 实例 * 或 * 可用性组 * 。</block>
-  <block id="c3a876612603db3849e76480edcc8121" category="paragraph">单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 并选择主机名和 SQL Server 实例以筛选资源。然后，您可以单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
   <block id="e447517e5ec13b3c9e98a7c686d29ac7" category="paragraph">新添加，重命名或删除的资源将更新到 SnapCenter 服务器清单中。</block>
   <block id="b8b5141218dbfab4fdbf5b5063dfa880" category="paragraph">此时将显示资源以及资源类型，主机或集群名称，关联的资源组，备份类型，策略和整体状态等信息。</block>
   <block id="e47a2cdbd770e8e20b9c7261dcf67926" category="list-text">如果数据库位于非NetApp存储上、<block ref="5ad938d16e3b0d14368f810cc13f6c40" prefix=" " category="inline-code"></block> 显示在*整体状态*列中。</block>
@@ -3998,7 +3924,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="c0c5b186e05df9e6ae423f4ea8250abf" category="paragraph">以下是 ALM 配置的示例：</block>
   <block id="daeb552c90aac11e349828429974d376" category="list-text">多站点数据中心中的两个故障转移集群实例（ FCI ）</block>
   <block id="09952efebe47747a2be28706fb559f5c" category="list-text">用于灾难恢复的本地高可用性（ HA ）和可用性组（ AG ）的 FCI ，在灾难恢复站点上使用一个独立实例</block>
-  <block id="64e8969e45b911603c0aa0dc2d3f743f" category="image-alt">非对称 LUN 映射图</block>
   <block id="047292a89758275d763e235a846b8712" category="paragraph">主数据中心中的存储在主数据中心中的 FCI 节点之间共享。灾难恢复数据中心中的存储在灾难恢复数据中心中的 FCI 节点之间共享。</block>
   <block id="7d6c564058645b974e7a066a328c9765" category="paragraph">主数据中心上的存储对灾难恢复数据中心上的节点不可见，反之亦然。</block>
   <block id="19f41a1b89c8c0b2bc4c7041effadc74" category="paragraph">ALM 架构将 FCI 使用的两个共享存储解决方案与 SQL AG 使用的非共享或专用存储解决方案相结合。AG 解决方案对数据中心间的共享磁盘资源使用相同的驱动器号。这种存储布局称为 ALM ，其中集群磁盘在 WSFC 中的一小部分节点之间共享。</block>
@@ -4108,7 +4033,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="4632a6c67f803e17d68ebb34598a6785" category="admonition">不支持克隆实例的备份。</block>
   <block id="42bc133dbae7dbb6cec9ed93a48aaa65" category="list-text">选择数据库或资源组。</block>
   <block id="25c32a730da76a44edba3eed7970d7b5" category="list-text">从管理副本视图页面中，从主存储系统或二级（镜像或存储）存储系统中选择备份。</block>
-  <block id="d9f15a1f5a532a10eedb724ee7cefae8" category="list-text">选择备份，然后单击 *<block ref="44cb43ff1bef6ac179dd09e52aa35b83" category="inline-image-macro-rx" type="image"></block>*</block>
   <block id="01e2b44d2ed56123a7aac06f5ddcc2c1" category="list-text">在克隆选项页面中，执行以下操作：</block>
   <block id="530587cce0e3987bdf3bb0fa8eb1fafb" category="paragraph">选择应在其中创建克隆的主机。</block>
   <block id="172ad591d7bca3f8b16f72da9e187238" category="paragraph">克隆实例</block>
@@ -4139,7 +4063,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="2df5362c7aa8c12a0dd2f1b211cdf61d" category="paragraph"><block ref="2df5362c7aa8c12a0dd2f1b211cdf61d" category="inline-link-rx"></block></block>
   <block id="230797cd257f4279279a678587ed7d3e" category="summary">如果要保护 SQL Server 数据库，应安装和设置适用于 Microsoft SQL Server 的 SnapCenter 插件。</block>
   <block id="f03c757efff1b7a92c7b30cbc8c7c0b8" category="doc">适用于 Microsoft SQL Server 的 SnapCenter 插件的安装工作流</block>
-  <block id="33666019cac43e63f53db79cad8f33ac" category="image-alt">scsql 安装配置工作流</block>
   <block id="81a77062a70718e0452154930df7ac35" category="doc">取消 SQL 资源克隆操作</block>
   <block id="0441f921ecb29005b4b309df792042a3" category="summary">通过为 SQL Server 定义还原策略，您可以成功还原数据库。</block>
   <block id="24fc557949539a292d3c18f3c9454f62" category="doc">定义 SQL Server 的还原策略</block>
@@ -4198,8 +4121,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="bb7367ec62fb74511977df150181bc7f" category="doc">准备SnapCenter 服务器和插件安装</block>
   <block id="63408836354c40518fc610de2ff61aef" category="paragraph">提供了一组有关安装SnapCenter 服务器和适用于Microsoft SQL Server的SnapCenter 插件的精简准备说明。</block>
   <block id="cfcb453ff70ad933cab89769866a7ca8" category="paragraph">请参见<block ref="895e9fc4fedf805e54b700a772e16c16" category="inline-link-rx"></block></block>
-  <block id="aa829ddf1acbdd2a8aa6a61635c33dec" category="inline-link-macro">导入归档备份</block>
-  <block id="b06af5128852d56366a94b0a3584c1a6" category="paragraph">如果您使用的是适用于 Microsoft SQL Server 的 SnapManager ，并且希望将数据从适用于 Microsoft SQL Server 的 SnapManager 导入到 SnapCenter ，请参见 <block ref="0079f46f6850618db9fdf32f5f6051e0" category="inline-link-macro-rx"></block></block>
   <block id="3f62b0eaf385764495dac5125b982527" category="summary">备份频率 \ （计划类型 \ ）在策略中指定；备份计划在资源组配置中指定。</block>
   <block id="dbdd98555d291afd9b94036b7bae42c4" category="doc">适用于 SQL Server 的插件的备份计划</block>
   <block id="8c2706ff7c5260b28a36b7642f3fdcf7" category="summary">您应从 SnapCenter 用户界面中安装适用于 Microsoft SQL Server 的 SnapCenter 插件。但是，如果由于某种原因而无法运行此插件，则可以通过 Windows 命令行在无人参与的情况下以静默模式运行适用于 SQL Server 的插件安装程序。</block>
@@ -4282,7 +4203,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="200173e810f24d588054234ea90379a4" category="paragraph">新备份旁边会显示一个 "i" 图标，表示这些备份是在灾难恢复模式下创建的。</block>
   <block id="5e7078fc2c5f11497c9f2a56ffd9b736" category="list-text">您可以使用UI或以下cmdlet删除在故障转移期间创建的适用于SQL Server的SnapCenter 插件备份：<block ref="deedcb4a01370ff7adf6a8a79cd7d1e0" prefix=" " category="inline-code"></block></block>
   <block id="b46fdb28b1bf03616f61fcda6f266b96" category="list-text">故障转移后、如果您希望某些资源处于非DR模式、请使用以下cmdlet：<block ref="c15a3d6bef369bbee5b5a45642d3de86" prefix=" " category="inline-code"></block></block>
-  <block id="36b5bc8569a0d58f30345b63446499e3" category="paragraph">有关详细信息，请参见<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="7ccaeb1e46c3ede7b5c8c6431b09266a" category="list-text">SnapCenter 服务器将管理处于灾难恢复或非灾难恢复模式的各个存储资源（ SQL 数据库），但不管理存储资源处于灾难恢复模式或非灾难恢复模式的资源组。</block>
   <block id="5a84253a41c8716d8113fbb5704f5cb7" category="summary">您必须使用 SnapCenterAdd Host 页面添加主机并安装插件软件包。这些插件会自动安装在远程主机上。</block>
   <block id="a3c94a7e24d43ebc327c3a46c41a87f3" category="doc">添加主机并安装适用于 Windows 的 SnapCenter 插件软件包</block>
@@ -4345,15 +4265,12 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="57dec0d5fea8ca9066aa74005656dde3" category="section-title">第2步：配置实例</block>
   <block id="9cfc80fa5227a423a76220ce430d990c" category="list-text">在左侧导航窗格中，单击 * 资源 * 。</block>
   <block id="9b2d19ed2c6ef4ad66cf85a7f008aa99" category="list-text">在资源页面中，从 * 视图 * 列表中选择 * 实例 * 。</block>
-  <block id="ae829e34e763c62f7fbf84dd61e419e2" category="list-text">单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>，然后选择主机名以筛选实例。</block>
-  <block id="e50f0759502e9232b70d6a9904881524" category="list-text">单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
   <block id="3729214a02912f5fc0f81c3f5dffad3b" category="list-text">在实例保护页面中，保护实例，如果需要，请单击 * 配置凭据 * 。</block>
   <block id="5479732a2e06d6b7a50f564e8fe27e30" category="paragraph">如果登录到 SnapCenter 服务器的用户无法访问适用于 Microsoft SQL Server 的 SnapCenter 插件，则用户必须配置凭据。</block>
   <block id="8cfd48e3d0704f372da00b7de212f299" category="admonition">凭据选项不适用于数据库和可用性组。</block>
   <block id="e1648da076ced3c1817678512208f9c2" category="doc">如何使用资源，资源组和策略来保护 SQL Server</block>
   <block id="487a53be0a7591a408a6869c3857445e" category="list-text">资源通常是指您使用 SnapCenter 备份或克隆的数据库，数据库实例或 Microsoft SQL Server 可用性组。</block>
   <block id="d88bacbb5672d08c2bee7f25fb3fc697" category="paragraph">将某个资源组视为定义了您要保护的内容，以及您希望在日期和时间保护的时间。将某个策略视为定义了要保护的 _how _ 。例如，如果要备份主机的所有数据库或所有文件系统，则可以创建一个资源组，其中包含主机中的所有数据库或所有文件系统。然后，您可以将两个策略附加到资源组：每日策略和每小时策略。在创建资源组并附加策略时，您可以将资源组配置为每天执行完整备份，并执行另一个计划，以便每小时执行一次日志备份。</block>
-  <block id="98a31c63f0ad69ee2075cb6cc6584bd3" category="image-alt">scsql 资源组策略</block>
   <block id="c7abd5797dbf501112fdb42c49a4df92" category="doc">使用 PowerShell cmdlet 删除备份</block>
   <block id="98d00f0950d49399aca5b7e5b8865719" category="summary">适用于 Microsoft SQL Server 的 SnapCenter 插件需要事务日志备份来执行最新的还原操作，以便将数据库还原到两个完整备份之间的时间。</block>
   <block id="fdc4a4ab9ed4ec8a0e816124044ffbb2" category="doc">在源存储系统上保留事务日志备份的时间</block>
@@ -4472,7 +4389,6 @@ Microsoft iSCSI Initiator)连接到同一主机上的VMDK或RDM LUN
   <block id="020883c1843059deced1a2bddac4e0ce" category="admonition">SnapCenter 不支持在不同集群上使用相同名称的多个 SVM 。SnapCenter 支持的每个 SVM 都必须具有唯一的名称。</block>
   <block id="42e20be165e590208778cbb0b28a11ce" category="list-text">添加主机，安装插件，发现（刷新）资源以及配置插件。</block>
   <block id="b3721954b25a4acdb3a4229ac3e0b5f8" category="list-text">运行 invoke-SmConfigureResources ，将现有 Microsoft SQL Server 数据库从本地磁盘移动到 NetApp LUN ，反之亦然。</block>
-  <block id="2dfd0f9f208059d0a9543cb1558cea8f" category="paragraph">有关运行 cmdlet 的信息，请参见<block ref="3f0d4c4b3a1c9cfa1189bb7484d60c1b" category="inline-link-rx"></block></block>
   <block id="eefa922509507f72bc1a8ad3abe353fd" category="list-text">如果您使用 SnapCenter 服务器保护驻留在 VMware RDM LUN 或 VMDK 上的 SQL 数据库，则必须部署适用于 VMware vSphere 的 SnapCenter 插件并向 SnapCenter 注册此插件。有关详细信息，请参见适用于 VMware vSphere 的 SnapCenter 插件文档。</block>
   <block id="2d3786cce4bbee81c9852997cc1bef39" category="paragraph"><block ref="2d3786cce4bbee81c9852997cc1bef39" category="inline-link-rx"></block></block>
   <block id="cb40b95d1f81d27f63b648f2d12941e5" category="list-text">使用适用于 Microsoft Windows 的 SnapCenter 插件执行主机端存储配置。</block>
@@ -4567,7 +4483,6 @@ Microsoft iSCSI Initiator)连接到同一主机上的VMDK或RDM LUN
   <block id="4507e0d1a42287b926181e4cb9fda1cf" category="summary">提供有关此版本的 SnapCenter 服务器和 SnapCenter 插件软件包的重要信息，包括已修复的问题，已知问题，注意事项和限制。</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="doc">发行说明</block>
   <block id="a79368498522acef202a75204e93905e" category="inline-link">SnapCenter软件4.8发行说明</block>
-  <block id="c9d12743ca0ae0d66da7b9ce9795a0e8" category="paragraph">有关详细信息，请参见<block ref="9b9dacb6ec864e8f90c589c7a3a6bf3e" category="inline-link-rx"></block>。</block>
   <block id="34c24f1d15647adba6dcde96f1a84b95" category="summary">您可以使用 REST API 执行多个 SnapCenter 管理操作。REST API 通过 Swagger 网页公开。您可以访问 Swagger 网页以显示 REST API 文档，并手动对 API 调用执行问题描述。您可以使用 REST API 帮助管理 SnapCenter 服务器或 SnapCenter vSphere 主机。</block>
   <block id="c8e5654e4bfafe9239ad785c178eec35" category="doc">使用 REST API 实现 SnapCenter 自动化</block>
   <block id="4da05a98f7d43c6ecf97005050dd8b4c" category="cell">REST API 用于 ...</block>
@@ -4645,7 +4560,6 @@ Microsoft iSCSI Initiator)连接到同一主机上的VMDK或RDM LUN
   <block id="9e5309714d9094e413324e0abf1a2c00" category="paragraph">您应在安装SnapCenter服务器和相应插件后部署CA证书。
 有关详细信息，请参见 <block ref="e785a19e47d7a7e00436d504e46ce80e" category="inline-link-macro-rx"></block>。</block>
   <block id="8fbcd736aac5b9c6baba8f4db349f50e" category="inline-link">创建和导入证书</block>
-  <block id="c0ddbdc2a9782e98d40c313e95e09705" category="paragraph">您还可以为适用于 VMware vSphere 的 SnapCenter 插件部署 CA 证书。有关详细信息，请参见<block ref="f5f72b20763af718f23ba7b5cc6b11fa" category="inline-link-rx"></block>。</block>
   <block id="2519e52723b63d73b91fe9567002e2ad" category="section-title">多因素身份验证（ MFA ）</block>
   <block id="3b657229f02ff903eb873f61703af749" category="paragraph">MFA通过安全断言标记语言(SAML)使用第三方身份提供程序(IdP)来管理用户会话。此功能可选择使用TOTP、生物识别、推送通知等多种因素以及现有用户名和密码、从而增强身份验证的安全性。此外、它还支持客户使用自己的用户身份提供程序在其产品组合中获得统一的用户登录(SSO)。</block>
   <block id="3d687b72d27aa3959c593b27cbc44d4c" category="paragraph">MFA仅适用于SnapCenter 服务器UI登录。  登录通过IdP Active Directory联合身份验证服务(AD FS)进行身份验证。  您可以在AD FS上配置各种身份验证因素。SnapCenter 是服务提供商、您应将SnapCenter 配置为AD FS中的依赖方。要在SnapCenter 中启用MFA、您需要AD FS元数据。</block>
@@ -4725,8 +4639,6 @@ Microsoft iSCSI Initiator)连接到同一主机上的VMDK或RDM LUN
   <block id="1b195709096f08d5640d18382cb88214" category="paragraph">SnapCenter 包括以下主要功能：</block>
   <block id="0d5a14c7c275ceabc6219ec9ab60645f" category="list-text">集中式应用程序一致的数据保护</block>
   <block id="614d75d82c03a359210029561e76c31c" category="paragraph">Microsoft Exchange Server ， Microsoft SQL Server ， Linux 或 AIX 上的 Oracle 数据库， SAP HANA 数据库以及 ONTAP 系统上运行的 Windows 主机文件系统均支持数据保护。</block>
-  <block id="91fc009ef552fe282ad4103bc4542688" category="paragraph">通过提供一个用于创建用户定义的 SnapCenter 插件的框架，其他标准或自定义应用程序和数据库也支持数据保护。这样就可以通过同一个单一管理平台为其他应用程序和数据库提供数据保护。通过利用此框架， NetApp 在 NetApp 自动化商店中发布了适用于 IBM DB2 ， MongoDB ， MySQL 等的 SnapCenter 自定义插件。</block>
-  <block id="824fb725cd78913cf73d5b8ff0ebe97c" category="paragraph"><block ref="824fb725cd78913cf73d5b8ff0ebe97c" category="inline-link-rx"></block></block>
   <block id="1e06a8cc16bd3bc423f81e8ff56e4fc0" category="list-text">基于策略的备份</block>
   <block id="5120c9ef4a7041813fe0f5dd0dceb9e7" category="paragraph">基于策略的备份利用 NetApp Snapshot 副本技术创建快速，节省空间，应用程序一致且基于磁盘的备份。或者，您也可以通过更新现有保护关系自动将这些备份保护到二级存储。</block>
   <block id="c6f23063f5e9e828f1d4a0d52255f07c" category="list-text">备份多个资源</block>
@@ -4741,7 +4653,6 @@ Microsoft iSCSI Initiator)连接到同一主机上的VMDK或RDM LUN
   <block id="7ef2193aefa38af010eb09987c5e35ec" category="paragraph">SnapCenter 包含 REST API ，可提供与任何业务流程软件集成的大多数功能，并可使用 Windows PowerShell cmdlet 和命令行界面。</block>
   <block id="66ee30700091538587a27acf4ecad692" category="inline-link">REST API概述</block>
   <block id="9a9a51f1993f5461829d8466a8fb013e" category="paragraph">有关REST API的详细信息、请参见<block ref="ea5c19f623f4ce0e4a3a37a512890f94" category="inline-link-rx"></block>。</block>
-  <block id="bb9b211047ca9fd3aa94d088f95891ee" category="paragraph">有关Windows cmdlet的详细信息、请参见<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="491d379e6629985a2ada1aa1be5dbaff" category="paragraph">有关UNIX命令的详细信息、请参见<block ref="868bc9c3fbc71eae2d899862af6d942e" category="inline-link-rx"></block>。</block>
   <block id="44764ea524336d8792197315c021bc65" category="list-text">集中式数据保护信息板和报告</block>
   <block id="36fbf00d5877eca259aff6ad5fc25b19" category="list-text">基于角色的访问控制（ Role-Based Access Control ， RBAC ），确保安全性和委派。</block>
@@ -4771,7 +4682,6 @@ Microsoft iSCSI Initiator)连接到同一主机上的VMDK或RDM LUN
   <block id="41055e583e58ee1a92771580cdfe9b3f" category="list-text">适用于 AIX 的 SnapCenter 插件软件包，其中包括以下插件：</block>
   <block id="f131ab7559cf49d32373fdff9b7cbaaa" category="admonition">适用于 UNIX 的 SnapCenter 插件不是独立插件，不能单独安装。安装适用于 Oracle 数据库的 SnapCenter 插件时，系统会自动安装此插件。</block>
   <block id="ad41f7a9e85843a998743e132424a395" category="list-text">SnapCenter 自定义插件</block>
-  <block id="c41cef29e8776e4670cacce5775ec017" category="paragraph">自定义插件受社区支持，可从下载<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>。</block>
   <block id="4bfa416280fc4f5037348c904859e18f" category="paragraph">适用于 VMware vSphere 的 SnapCenter 插件（以前称为 NetApp 数据代理）是一个独立的虚拟设备，支持在虚拟化数据库和文件系统上执行 SnapCenter 数据保护操作。</block>
   <block id="2aa0571a478e7d0fecaba7f94c88bf25" category="section-title">SnapCenter 服务器</block>
   <block id="e4b70dc0a2377b7bbef832a55b2d603c" category="paragraph">SnapCenter 服务器包括一个 Web 服务器，一个基于 HTML5 的集中式用户界面， PowerShell cmdlet ， REST API 和 SnapCenter 存储库。</block>
@@ -4838,7 +4748,6 @@ Microsoft iSCSI Initiator)连接到同一主机上的VMDK或RDM LUN
   <block id="7362a758a4c65bbbb4dc5e948b5a5896" category="list-text">支持自定义插件来管理其他 SnapCenter 插件不支持的应用程序或数据库。自定义插件不会在 SnapCenter 安装过程中提供。</block>
   <block id="7f8b22ee024d485fad8d1c95beda80f7" category="list-text">支持在另一个卷上为备份集创建镜像副本，并执行磁盘到磁盘备份复制。</block>
   <block id="0bdb27719827039d79994d2a17575b2e" category="list-text">同时支持 Windows 和 Linux 环境。在 Windows 环境中，通过自定义插件的自定义应用程序可以选择使用适用于 Microsoft Windows 的 SnapCenter 插件进行文件系统一致的备份。</block>
-  <block id="bef4d00fa5327b323d516fbe5c1bce99" category="paragraph">可以从下载适用于 SnapCenter 软件的 MySQL ， DB2 和 MongoDB 自定义插件示例<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>。</block>
   <block id="dbe26f725743679de01e440c2e7697ad" category="admonition">MySQL ， DB2 和 MongoDB 自定义插件仅可通过 NetApp 社区获得支持。</block>
   <block id="a84dab656bf020b14be7a5c3596b4288" category="paragraph">NetApp 支持创建和使用自定义插件的功能；但是， NetApp 不支持您创建的自定义插件。</block>
   <block id="0403e11795fb79ba2a2b089e5837948f" category="paragraph">有关详细信息，请参见 <block ref="5d3441c720944f2bfbf67dc2b7c68bf1" category="inline-link-macro-rx"></block></block>
@@ -4904,7 +4813,6 @@ Microsoft iSCSI Initiator)连接到同一主机上的VMDK或RDM LUN
   <block id="413d9db5e9371c72c8a46ca2aa854b0b" category="paragraph">在创建资源组并附加策略时，您可以将资源组配置为每天执行完整备份，并执行另一个计划，以便每小时执行一次日志备份。</block>
   <block id="ac79b4abc4dc6d0e9ec4abc5ca6b78a2" category="image-alt">数据集和策略图</block>
   <block id="a2736a5a798a9322639036f21c70d1d1" category="paragraph">下图说明了 Windows 文件系统中资源，资源组和策略之间的关系：</block>
-  <block id="6d6b02d244f9cf99608b318dd4f2cda4" category="image-alt">wfs 的资源和策略</block>
   <block id="5926d8282fd08537dd7e7090709f2b1a" category="summary">您可以使用命令行界面卸载适用于 Linux 的 SnapCenter 插件软件包或适用于 AIX 的 SnapCenter 插件软件包。</block>
   <block id="b67e16350266a218b700f80817e7dec0" category="doc">使用命令行界面卸载适用于 Linux 或 AIX 的插件软件包</block>
   <block id="c557793771176243e85dc7597d5a2f77" category="list-text">确保已删除已计划的作业</block>
@@ -4916,7 +4824,6 @@ Microsoft iSCSI Initiator)连接到同一主机上的VMDK或RDM LUN
   <block id="c1fb7c552ac7beaf17dc346fda22eff6" category="list-text">删除资源组时，所有关联的计划也会被删除。</block>
   <block id="622c9e28dad13fa5c04d47d33d343831" category="list-text">如果主机中的某个资源组与另一主机共享，而您删除了该主机，则该资源组也会被删除。</block>
   <block id="759ef57c3be2a273728558ce141e699a" category="list-text">您应使用 _Remove-SmHost_ cmdlet 删除已停用或无法访问的插件主机。</block>
-  <block id="7d5e98342223338218f7d96b6f09048c" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block></block>
   <block id="40b2be8df06289f2b15c3ba4ee7adb9d" category="list-text">删除主机所需的时间取决于备份数量和保留设置。这是因为 Snapshot 副本会从每个控制器中删除，并且元数据会被清理。</block>
   <block id="5d892beace7b1624b071044ece982dcc" category="list-text">选择要删除的主机，然后单击 * 删除 * 。</block>
   <block id="19355742858cf70570e1a01c80a490ab" category="list-text">对于 Oracle RAC 集群，要从集群中的所有主机中删除 SnapCenter 软件，请选择 * 包括集群中的所有主机 * 。</block>
@@ -4937,7 +4844,6 @@ Microsoft iSCSI Initiator)连接到同一主机上的VMDK或RDM LUN
   <block id="fca66b9c4df401b3975637ceacad7ed3" category="paragraph">您应已在要卸载此插件的每个主机上以具有本地管理员权限的域用户身份登录到 SnapCenter 。</block>
   <block id="8804fc7cd8650f0fe7f3181b69a373af" category="list-text">在SnapCenter服务器主机上、输入：_Open-SMConnection -SMSbaseUrl \https://SNAPCENTER_SERVER_NAME/DOMAIN_NAME_命令、然后输入您的凭据。</block>
   <block id="0262b115df575f2dc8bf11b8e4a86e10" category="list-text">使用 _Uninstall-SmHostPackage_ cmdlet 和所需参数卸载 Windows 插件。</block>
-  <block id="e125da4cc0e5138fb35b5f0e2a1ba201" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="e0898373b2f666f171a7f4036db43bea" category="summary">如果不再希望使用 SnapCenter 管理主机的数据保护作业，则可以删除该主机。例如，如果某个主机不再具有需要保护的数据，您可能需要将其删除。从 SnapCenter 服务器中删除主机之前，必须执行前提条件任务。</block>
   <block id="0b9b2afb477e54bc6c5d26158d80077a" category="doc">删除主机的前提条件</block>
   <block id="f3442009cf8c0e228473ba15a66ac563" category="paragraph">您可以使用 SnapCenter 图形用户界面删除主机并卸载各个插件或插件软件包。此外，您还可以使用 SnapCenter 服务器主机上的命令行界面（ CLI ）或在任何主机上本地使用 Windows * 卸载程序 * 选项卸载远程主机上的各个插件或插件软件包。</block>
@@ -4960,7 +4866,6 @@ Microsoft iSCSI Initiator)连接到同一主机上的VMDK或RDM LUN
   <block id="06b047d338ab216568f24797a92a475a" category="list-text">您应已将 RBAC 用户分配给 RBAC 角色。</block>
   <block id="4fcc15e06159b8ced3ec8f0100fa1a04" category="list-text">您应已将 RBAC 用户分配给主机，适用于 Microsoft SQL Server 的 SnapCenter 插件，凭据，克隆生命周期资源组和存储系统。</block>
   <block id="92d37724657724129ae0451584c728aa" category="inline-link">删除适用于 VMware vSphere 的 SnapCenter 插件</block>
-  <block id="00b3864f3eb01692ecdfe4f18c19971c" category="paragraph">有关卸载适用于 VMware vSphere 的 SnapCenter 插件的信息，请参见<block ref="17b687e0a579b9f5223d3c7119027217" category="inline-link-rx"></block>。</block>
   <block id="1f3416d24aa4604f3bf013f7b5ba6d0f" category="summary">如果您确定不再需要单个插件或插件软件包，则可以使用 SnapCenter 界面将其卸载。</block>
   <block id="76af7718f89458bae85fc299897539a1" category="doc">使用 SnapCenter 图形用户界面卸载插件</block>
   <block id="59c6427d777966a59438a00364121a39" category="list-text">您应已删除要卸载的插件软件包的资源组。</block>
@@ -4970,7 +4875,6 @@ Microsoft iSCSI Initiator)连接到同一主机上的VMDK或RDM LUN
   <block id="fee0bec9fecb6576229640dcf9eec620" category="paragraph">从 SnapCenter 中删除主机时， SnapCenter 会先卸载主机上的所有插件软件包，然后再删除该主机。</block>
   <block id="cd9cae3233179ab0aa5b93a449869d50" category="list-text">SnapCenter 图形用户界面一次从一台主机中删除插件。</block>
   <block id="e4b51b04ea7a4e9b027ffb18024a9938" category="paragraph">使用 SnapCenter 图形用户界面时，一次只能在一台主机上卸载插件。但是，可以同时运行多个卸载操作。</block>
-  <block id="517b39b6edfcd923dff2604ce021f723" category="paragraph">此外，您还可以使用 _Uninstall-SmHostPackage_ cmdlet 和所需参数从多个主机卸载插件。有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="a4ad00e40c8d026de37f699c1cdc43f2" category="admonition">从安装了 SnapCenter 服务器的主机卸载适用于 Windows 的 SnapCenter 插件软件包将损坏 SnapCenter 服务器安装。请勿卸载适用于 Windows 的 SnapCenter 插件软件包，除非您确定不再需要 SnapCenter 服务器。</block>
   <block id="b431698bc085bcde968e1e3d9582578a" category="list-text">在受管主机页面中，选择要从中卸载插件或插件软件包的主机。</block>
   <block id="9e8fa339338bb378f91b2bc7b281c6c6" category="list-text">在要删除的插件旁边，单击 * 删除 * &gt; * 提交 * 。</block>
@@ -5512,7 +5416,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="5b416e1633d16aad217a2e0fc2d097f8" category="doc">升级工作流</block>
   <block id="994e8a3ae2b587ba4467292fb5e6ba75" category="paragraph">每个 SnapCenter 版本都包含一个更新的 SnapCenter 服务器和插件软件包。插件软件包更新随 SnapCenter 安装程序一起分发。您可以将 SnapCenter 配置为检查可用更新。</block>
   <block id="1942fea7712357c67be30cfd20652b93" category="paragraph">此工作流显示了升级 SnapCenter 服务器和插件软件包所需的不同任务。</block>
-  <block id="f640c846348fd61e77b392f8bb721f0c" category="image-alt">升级工作流</block>
   <block id="eccc8325175b53fdef9a1846222d4161" category="section-title">支持的升级路径</block>
   <block id="521d29d37f5561d4922ece42dc92cb07" category="cell">如果您使用的是SnapCenter 服务器版本...</block>
   <block id="7676f59833cee6720de923cfeef21ede" category="cell">您可以直接将SnapCenter 服务器升级到...</block>
@@ -5536,7 +5439,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="313500fb86a172e846d699cb256626d3" category="list-text">通过执行以下任务之一升级主机：</block>
   <block id="0e823ac83a0e5e8cc905d2eed889ff3f" category="list-text">如果其中一个主机的整体状态列显示 "`Upgrade Available` " ，请单击主机名并执行以下操作：</block>
   <block id="2445a40c60df055e6c04f244fdab70dd" category="list-text">如果您不想验证主机是否满足升级插件的要求，请选择 * 跳过预检 * 。</block>
-  <block id="f0591735df8248e1a4f758a0a4d6508f" category="list-text">如果要升级多个主机，请选择所有主机，然后单击 <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block>，然后单击 * 升级 * &gt; * 确定 * 。</block>
   <block id="8ab368eff7e361869ef717b446f7ec1b" category="paragraph">所有相关服务都会在插件升级期间重新启动。</block>
   <block id="cb2e95d4ff0d177df515e750d19325ff" category="admonition">此时将选择软件包中的所有插件，但只会升级随早期版本的 SnapCenter 安装的插件，而不会安装其余插件。您必须使用 * 添加插件 * 选项安装任何新插件。</block>
   <block id="54b984a4288fefb2ababe762c45c4850" category="paragraph">如果未选中 * 跳过预检 * 复选框，则会验证主机是否满足安装插件的要求。如果不满足最低要求，则会显示相应的错误或警告消息。修复问题描述后，单击 * 升级 * 。</block>
@@ -5617,7 +5519,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="4265601c87361a7cd62256734c1f899a" category="paragraph">如果选择 * 自动选择同一存储卷上的所有资源 * 选项，则会选择同一卷上的所有资源。将这些资源移动到 " 已添加 " 部分时，该卷上的所有资源将同时移动。</block>
   <block id="d0bb923d5452aed249e5dd3106e8b581" category="paragraph">要添加单个文件系统，请清除 * 自动选择同一存储卷上的所有资源 * 选项，然后选择要移至已添加部分的文件系统。</block>
   <block id="06b7a35647423a613441508027476181" category="paragraph">您可以选择任何现有策略并单击 * 详细信息 * 以确定是否可以使用该策略。</block>
-  <block id="cca9f37b92847fd5d373bfe5fd03eb96" category="paragraph">如果现有策略不满足您的要求，您可以单击 * 来创建新策略<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>* 以启动策略向导。</block>
   <block id="ab549fb31447afed81e3fd9e890b0394" category="paragraph">选定策略将在为选定策略配置计划部分的策略列中列出。</block>
   <block id="35d29b40e80e1e7a9a337b582db6df91" category="list-text">如果此策略与多种计划类型（频率）关联，请选择要配置的频率。</block>
   <block id="e44e5d659314ff509ecc4d0c16427d88" category="list-text">在添加策略 _policy_name_ 的计划对话框中，指定开始日期，到期日期和频率来配置计划，然后单击 * 完成 * 。</block>
@@ -5716,8 +5617,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="b9eabe260cd8a0a2c241b35d09dfb062" category="paragraph">您可以使用<block ref="340b7328d82897326900685536aac803" prefix=" " category="inline-code"></block> 选项。如果您已手动安装了插件、并且不想验证主机是否满足安装此插件的要求、则可以选择此选项。</block>
   <block id="bf9022cd459d82bda5c1defee5acb8ac" category="summary">在环境中安装适用于 Microsoft Windows 的 SnapCenter 插件时，您可以使用 SnapCenter 备份 Windows 文件系统。您可以备份单个文件系统或包含多个文件系统的资源组。您可以按需备份，也可以根据定义的保护计划进行备份。</block>
   <block id="6213c4aa6c3d759b708f391038b515e2" category="paragraph">您可以计划在服务器之间同时运行多个备份。备份和还原操作不能同时在同一资源上执行。</block>
-  <block id="0d267aa6a5980521c50d3bb9b62d9419" category="image-alt">SCE 备份工作流</block>
-  <block id="7ed3417ce7f529178e5bb25b31b39fc6" category="paragraph">您也可以手动或在脚本中使用 PowerShell cmdlet 执行备份，还原和克隆操作。SnapCenter cmdlet 帮助或<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block> 包含有关 PowerShell cmdlet 的详细信息。</block>
   <block id="07117ad816bc94530a93fd42336f2f79" category="summary">适用于 Windows 的插件可与存储系统上的 NetApp Snapshot 副本技术集成。要使用适用于 Windows 的插件，请使用 SnapCenter 界面。</block>
   <block id="6c2908e5cc43162ef9ecea994b17389d" category="doc">适用于 Windows 的 SnapCenter 插件功能</block>
   <block id="5152783556f9f44813fcbba2514ba270" category="paragraph">适用于 Windows 的插件包括以下主要功能：</block>
@@ -5786,7 +5685,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="f0eee44a5ea73e8e986af8ed4ae99c75" category="doc">取消还原操作</block>
   <block id="d15d437af5bf71693f503d9b740db0b6" category="summary">如果要保护非数据库文件的 Windows 文件，则必须安装和设置适用于 Microsoft Windows 的 SnapCenter 插件。</block>
   <block id="15e336a500bbc8b78c88e27a721b8803" category="doc">适用于 Microsoft Windows 的 SnapCenter 插件的安装工作流</block>
-  <block id="f49c84e0b5156da6ebd210ed36305e85" category="image-alt">用于安装的 SCW 工作流</block>
   <block id="e30725bfa240d5ea8772d145f781e859" category="summary">如果某个资源不在资源组中，您可以从资源页面按需备份该资源。</block>
   <block id="61be258ec26cd6598544b7c05bf8b36a" category="doc">按需备份 Windows 文件系统的单个资源</block>
   <block id="866879cbf88bb77398ac3c336063ceea" category="paragraph">如果要备份与二级存储具有 SnapMirror 关系的资源，则分配给存储用户的角色应包括 `snapmirror all` 特权。但是，如果您使用的是 "`vsadmin` " 角色，则不需要 " `snapmirror all` " 特权。</block>
@@ -5795,8 +5693,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="c62706269a2329ff51bf94ff5010638a" category="paragraph">指定保护设置，如创建资源组任务中所述。</block>
   <block id="da4b05983b1e6447f9b34c3d68c1e1e9" category="list-text">可选：在向导的 " 资源 " 页面中，输入 Snapshot 副本的自定义名称格式。</block>
   <block id="1957e5ad25b71af9fcaddadddc14180d" category="paragraph">您可以选择任何现有策略，然后单击 * 详细信息 * 以确定是否可以使用该策略。</block>
-  <block id="72505ce1779969b10a827b76ce40ee9f" category="paragraph">如果现有策略不满足您的要求，您可以复制现有策略并对其进行修改，也可以单击创建新策略 <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block> 启动策略向导。</block>
-  <block id="664f868df734376691b6f2603ef04ff9" category="list-text">在为选定策略配置计划部分中，单击 <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block> 在要配置计划的策略的 Configure Schedules 列中。</block>
   <block id="bc22332d0120f08504019205b36354ac" category="inline-link">计划的操作可能会失败</block>
   <block id="bddd7b60b51755712256b3b46ef0c101" category="paragraph"><block ref="bddd7b60b51755712256b3b46ef0c101" category="inline-link-rx"></block></block>
   <block id="6dbe642189d028e1d830c44817108644" category="list-text">在通知页面中，执行以下任务：</block>
@@ -6145,7 +6041,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="33e064f29b9e817a8e3b29ebdbe9e58d" category="list-text">如果存在关联资产（主机，用户和组），则在取消注册域后，这些资产将无法运行。</block>
   <block id="882dc26e2380d66f18dab972132841dc" category="list-text">要取消注册不受信任的域，您可以使用 SnapCenter 用户界面或 PowerShell cmdlet 。</block>
   <block id="120ccafdaf964af639f60c4ed26eaafb" category="list-text">从域列表中，选择要取消注册的域。</block>
-  <block id="cde4c5c90d02e08fbdbc0d8eed8ec493" category="list-text">单击 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>，然后单击 * 确定 * 。</block>
   <block id="ab9f184317ad9227ffcca6da7d07d1c2" category="summary">您可以使用信息板为特定插件管理的资源请求保护详细信息。</block>
   <block id="ca8d4718959530d7081a06567ef1affb" category="doc">从信息板请求保护状态报告</block>
   <block id="c26cacb3ec2bfdd0d5608f4ffb737446" category="paragraph">您可以使用信息板为特定插件管理的资源请求保护详细信息。数据保护摘要仅考虑数据备份。</block>
@@ -6260,7 +6155,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="c4460b4ba682894b3659eac23da5982c" category="paragraph">在删除备份之前，您必须已删除关联的克隆。</block>
   <block id="95963f8927c154efb88b58300907395e" category="admonition">如果备份与克隆的资源相关联，则无法删除此备份。</block>
   <block id="f5284898efb9a6c5033f0a9dc818cb37" category="paragraph">您不能删除二级存储系统上的备份。</block>
-  <block id="107b0b3efdd6bdd1080f8bfc26e2dc6f" category="list-text">选择备份，然后单击 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="cb3436fef348c07ba3d9f412be444f39" category="paragraph">如果要删除 SAP HANA 数据库备份，则此备份的关联 SAP HANA 目录也会被删除。</block>
   <block id="b61d80f092eb0e582c00ae1b6238b80a" category="admonition">如果删除最后一个剩余备份，则无法删除关联的 HANA 目录条目。</block>
   <block id="fef20dbfed3ff50c55f0d523a35f981e" category="admonition">如果 SnapCenter 中有一些陈旧的数据库备份，而这些备份在存储系统上没有对应的备份，则必须使用 remove-smbackup 命令清理这些陈旧的备份条目。如果对陈旧的备份进行了编目，则这些备份将从恢复目录数据库中取消编目。</block>
@@ -6330,13 +6224,11 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="be1718168e430492046fac5f16367037" category="paragraph">通过启动 SnapCenter 插件服务，您可以在服务未运行时启动这些服务，或者在服务正在运行时重新启动这些服务。执行维护后，您可能需要重新启动服务。</block>
   <block id="58bcd22b31297b36a676def5347fa3b2" category="paragraph">重新启动服务时，应确保没有作业正在运行。</block>
   <block id="16acc7d09da8e8ea142faad2c2e99c21" category="list-text">在受管主机页面中，选择要启动的主机。</block>
-  <block id="83bc877d35e349591e52d67695f4ebd5" category="list-text">单击 <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block> 图标并单击 * 启动服务 * 或 * 重新启动服务 * 。</block>
   <block id="95cc3c73149a2a9e8f7514403fe4a484" category="paragraph">您可以同时启动或重新启动多个主机的服务。</block>
   <block id="a8eaf50ff5c7c20f8a8e1e520b6616ca" category="section-title">暂停主机维护计划</block>
   <block id="de638f093760483ad5af8153859bb6a4" category="paragraph">如果要阻止主机运行任何 SnapCenter 计划作业，可以将主机置于维护模式。在升级插件之前或在主机上执行维护任务时，应执行此操作。</block>
   <block id="7bd1b35c46c91d6c4f9e4e4e0987180e" category="admonition">您不能在已关闭的主机上暂停计划，因为 SnapCenter 无法与该主机进行通信。</block>
   <block id="bc62bc8ccd9bb9743e619c4fbc62a44f" category="list-text">在受管主机页面中，选择要暂停的主机。</block>
-  <block id="bfc75ad123f974ba0d75554566ed3fc4" category="list-text">单击 <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block> 图标，然后单击 * 暂停计划 * 将此插件的主机置于维护模式。</block>
   <block id="4e6ab1d1707049b8300c146abc72aade" category="paragraph">您可以同时暂停多个主机的计划。</block>
   <block id="a68a8f505f60c90cfd9806fe0303a226" category="admonition">您无需先停止此插件服务。插件服务可以处于 " 正在运行 " 或 " 已停止 " 状态。</block>
   <block id="72e07b749365fd8d8b234a68677498d1" category="paragraph">暂停主机上的计划后，主机的 " 受管主机 " 页面的 " 整体状态 " 字段将显示 * 已暂停 * 。</block>
@@ -6394,7 +6286,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="ba2f4fc969f990edea2a0f9e7c17885f" category="admonition">无法使用 SnapCenter 图形用户界面删除试用许可证（序列号以 50 结尾）。添加已获取的基于 SnapCenter 标准容量的许可时，试用许可证会自动被覆盖。</block>
   <block id="a79d31012252514c1817004ac27f6c78" category="list-text">在左侧导航窗格中，选择*Settings*。</block>
   <block id="a646fca044aab578f560ca4fc105e766" category="list-text">在设置页面中，选择*软件*。</block>
-  <block id="494d74fe2d3b6e8b71d672a1143d6aa0" category="list-text">在“软件”页面的“许可证”部分中，选择*Add*(<block ref="a55421dd685609006a21f2507444357f" category="inline-image-macro-rx" type="image"></block>）。</block>
   <block id="d72c1df6aa761e08a22ad7e68c16406d" category="list-text">在添加 SnapCenter 许可证向导中，选择以下方法之一以获取要添加的许可证：</block>
   <block id="a1d8662559bac2669232432df90e6db3" category="paragraph">输入 NetApp 支持站点 (NSS) 登录凭据以导入许可证</block>
   <block id="a426e2b1ae7b2ed68b622079636cb9f8" category="list-text">输入您的 NSS 用户名。</block>
@@ -6564,7 +6455,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="2789cdc77c14e8b5a14e86f2057a7d4f" category="list-text">域控制器主机名（ DCHostName ）应可从 SnapCenter 服务器访问。</block>
   <block id="88f43ff19ffe5badc539c95171485d40" category="list-text">您可以使用 SnapCenter 用户界面， PowerShell cmdlet 或 REST API 注册不可信域。</block>
   <block id="55914843f9768acffcc6d6ee07b8942f" category="list-text">在设置页面中，单击 * 全局设置 * 。</block>
-  <block id="6367d0504b967e287008a2edf347cff7" category="list-text">单击 <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block> 注册新域。</block>
   <block id="300306e9217bd45a67a1d98a4048e8f6" category="list-text">在注册新域页面中，选择 * LDAP * 或 * LDAPS* 。</block>
   <block id="d13bc78a8fd8227474b625ef1688e14b" category="list-text">如果选择 * LDAP * ，请指定为 LDAP 注册不可信域所需的信息：</block>
   <block id="57ea1a814b12bff97d06e62d6cb435ab" category="paragraph">域名</block>
@@ -6582,7 +6472,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="059fe1123e48629ed1d6514462f294b2" category="doc">为 SnapCenter 启用 CA 证书</block>
   <block id="07d333070d0435446600383ad0be9b41" category="list-text">您可以使用 Set-SmCertificateSettings cmdlet 启用或禁用 CA 证书。</block>
   <block id="1962fbbcfa72e74639e8c071188af514" category="list-text">您可以使用 Get-SmCertificateSettings cmdlet 显示 SnapCenter 服务器的证书状态。</block>
-  <block id="4e8d1223f4ffd73f23495af28c3c7669" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="1240073aadeb78a3e72b1cedfb5cec2f" category="list-text">在设置页面中，导航到 * 设置 * &gt; * 全局设置 * &gt; * CA 证书设置 * 。</block>
   <block id="a6e94fec2cfcadd0e75ac025786feb7f" category="list-text">*<block ref="ce7f8fe6cf825357e942960470acb5bc" category="inline-image-macro-rx" type="image"></block>* 表示未启用或未分配给插件主机的 CA 证书。</block>
   <block id="4ce9ef971363d62abcf2c6d2b1234486" category="summary">导出 SnapCenter 证书。</block>
@@ -6810,12 +6699,10 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="bebee85eba69e0936be881fa2ca1f602" category="admonition">如果您已从 SnapCenter 4.2.x 升级，并且先前使用的是网络负载平衡（ NLB ），则可以继续使用该配置或切换到 F5 。</block>
   <block id="a8c10ef2d3909ca8c562175087de65ba" category="inline-link">如何使用 F5 负载平衡器配置 SnapCenter 服务器以实现高可用性</block>
   <block id="a37d7f9a842acb74f6d4d0ac3a929778" category="paragraph">此工作流图列出了使用 F5 负载平衡器配置 SnapCenter 服务器以实现高可用性的步骤。有关详细说明，请参见<block ref="4d4c1b07c3f7cab3f346d17a2617da56" category="inline-link-rx"></block>。</block>
-  <block id="4c18603dba89b319f6382b3916e52cba" category="image-alt">SC F5 配置工作流</block>
   <block id="2f3c3d1de69d09261803424d64636033" category="paragraph">您必须是 SnapCenter 服务器上本地管理员组的成员（除了分配给 SnapCenterAdmin 角色之外），才能使用以下 cmdlet 添加和删除 F5 集群：</block>
   <block id="d9ea666bfbe8444fa88062f4874d0b22" category="list-text">Add-SmServerCluster</block>
   <block id="b8313647a63a15fb0ab7d46b778ba618" category="list-text">Add-SmServer</block>
   <block id="cd8ca61b82992f73c74f955bf0f47f20" category="list-text">Remove-SmServerCluster</block>
-  <block id="1e0e854d46f7fdae75748f42803b83f4" category="paragraph">有关详细信息，请参见<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="e79efa970901c1191fca1b278b2ff2d9" category="section-title">其他 F5 配置信息</block>
   <block id="ed9ff4b1a617150f86eae1035449f732" category="list-text">安装并配置 SnapCenter 以实现高可用性后，编辑 SnapCenter 桌面快捷方式以指向 F5 集群 IP 。</block>
   <block id="d04228e20798411b28cae6cb653df92c" category="list-text">如果 SnapCenter 服务器之间发生故障转移，并且还存在现有 SnapCenter 会话，则必须关闭浏览器并重新登录到 SnapCenter 。</block>
@@ -6879,7 +6766,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="3cb37de766f2d582ab6d0abf6e63d382" category="list-text">command 是 ONTAP 功能。</block>
   <block id="b49ce4d00d6ed57c9fbc9e20e08cee2c" category="admonition">您必须对每个权限重复此命令。请记住，必须先列出所有访问命令，然后再列出只读命令。</block>
   <block id="81fb23c0c8e735fb97f9f661b58902b8" category="inline-link-macro">用于创建角色和分配权限的 ONTAP 命令行界面命令</block>
-  <block id="f37634ec820656fbecf1b4e4a31565f9" category="paragraph">有关权限列表的信息，请参见 <block ref="6c1006d61f543513243fc1b3f8ac291c" category="inline-link-macro-rx"></block>。</block>
   <block id="10056fa29f5070106b5da7d2738acd2e" category="list-text">输入以下命令创建用户名：</block>
   <block id="1af6536f50b7c77854633155c6ae923a" category="paragraph"><block ref="496d78c32dd2b2752181d6346f8b0aeb" prefix="" category="inline-code"></block></block>
   <block id="a53046962f5d32ce0b5006e41f82fd45" category="list-text">user_name 是要创建的用户的名称。</block>
@@ -6952,7 +6838,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="68dae2573ac7874d6dd234af4fa4c752" category="list-text">在 SnapCenter 服务器上，打开 PowerShell 窗口以重置 MySQL 密码。</block>
   <block id="aa5c2438bb48bc6f9fc91294d9f5f2c1" category="list-text">运行 Open-SmConnection cmdlet ，为 SnapCenterAdmin 帐户启动与 SnapCenter 服务器的连接会话。</block>
   <block id="677b5668995b5d565b03294fb7b16727" category="list-text">运行 Set-SmRepositoryPassword 以重置 MySQL 密码。</block>
-  <block id="b1d0f68016df3655c241c0884e44b7fb" category="paragraph">有关 cmdlet 的信息，请参见<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="bdc5e2c886d9f1d7c2db87ea0140c771" category="list-text">打开命令提示符并运行 mysql -u root -p 以登录到 MySQL 。</block>
   <block id="4c6cef07724f31f81802bd1558b3066b" category="paragraph">MySQL 将提示您输入密码。输入在重置密码时提供的凭据。</block>
   <block id="730761cf69bd21652f5f5b9dc5170f63" category="list-text">从数据库中删除试用许可证：</block>
@@ -6975,7 +6860,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="e559ce2499d2c5cb24993b681f9f514b" category="inline-link">无法从外部网络访问集群 IP 地址</block>
   <block id="59985d4c0ad9df334fed4d44ff0991fa" category="paragraph">对于高可用性(HA)部署、您必须使用虚拟集群IP _Data \https://Virtual_Cluster_IP_or_FQDN:8146_.访问SnapCenter如果在Internet Explorer (IE)中导航到_FQDN时看不到SnapCenter UI、则必须在每个插件主机上将虚拟集群IP地址或\https://Virtual_Cluster_IP_or_FQDN:8146_添加为IE中的受信任站点、或者必须在每个插件主机上禁用IE增强安全。
 有关详细信息，请参见<block ref="f89494b555e2d92920e0ac70f10ea089" category="inline-link-rx"></block>。</block>
-  <block id="b2079ecc7149f6a09b8dd46c38e9fbe6" category="paragraph">除了使用 SnapCenter 图形用户界面之外，您还可以使用 PowerShell cmdlet 创建脚本以执行配置，备份和还原操作。某些 cmdlet 可能会随每个 SnapCenter 版本而发生更改。。<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="d6b96565adbb70c53ae14b5070be8651" category="admonition">如果您是首次登录到 SnapCenter ，则必须使用安装过程中提供的凭据进行登录。</block>
   <block id="31a7d97d557b06d288bae46db80c8d67" category="list-text">从本地主机桌面上的快捷方式，安装结束时提供的 URL 或 SnapCenter 管理员提供的 URL 启动 SnapCenter 。</block>
   <block id="578cd680813c62df612b39c490acb2bc" category="list-text">输入用户凭据。</block>
@@ -7652,7 +7536,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="3c15d7a6541e416f0d13373ee63fd0c0" category="paragraph">不支持共享驱动器或网络挂载驱动器。</block>
   <block id="d90e9077285809de90243e91ed3a10bc" category="list-text">如果在系统日志服务器设置中使用UDP协议、则由于端口关闭或不可用而导致的错误无法在SnapCenter 中捕获为错误或警报。</block>
   <block id="b398a3651d49f0eb14349eff9cfdec58" category="list-text">您可以使用Set-SmAuditSettings和Get－SmAuditSettings命令配置审核日志。</block>
-  <block id="28e97aa2b5ca929ab9bd2ef8535b4f26" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 get-help command_name 来获取。或者，您也可以参考<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="b081c433d361cfcb39c391b352a6f526" category="list-text">在*设置*页面中、导航到*设置*&gt;*全局设置*&gt;*审核日志设置*。</block>
   <block id="f3645e45f905156003cb2bb7741a86f3" category="list-text">在Audit log部分中、输入详细信息。</block>
   <block id="bc622cdadddc54b812b2df6bb7115372" category="list-text">输入*审核日志目录*和*审核校验和日志目录*</block>
@@ -7714,7 +7597,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="448b0d01720485ec0d184f399054ce73" category="list-text">这些策略用于指定数据保护操作的备份频率，副本保留，脚本和其他特征。</block>
   <block id="64cf55b1d943bb337c4bb23fe8c989a1" category="paragraph">创建资源组时，您可以为该组选择一个或多个策略。在为单个资源按需执行备份时，您也可以选择一个或多个策略。</block>
   <block id="c4b19e703264203b67174f98dbbef807" category="paragraph">将某个资源组视为定义了您要保护的内容，以及您希望在日期和时间保护的时间。将某个策略视为定义了要保护的 _how _ 。例如，如果要备份主机的所有数据库，则可以创建一个资源组，其中包含主机中的所有数据库。然后，您可以将两个策略附加到资源组：每日策略和每小时策略。在创建资源组并附加策略时，您可以将资源组配置为每天执行完整备份，并执行另一个计划，以便每小时执行一次日志备份。下图显示了数据库的资源，资源组和策略之间的关系：</block>
-  <block id="5ed949ae3a23443793622ef5e2bb8e86" category="image-alt">SCE 资源组策略</block>
   <block id="9bcf17f4427582cfbb783f46971b1eb0" category="summary">在创建备份作业之前定义备份策略有助于确保您拥有成功还原数据库所需的备份。您的服务级别协议（ Service Level Agreement ， SLA ），恢复时间目标（ Recovery Time Objective ， RTO ）和恢复点目标（ Recovery Point Objective ， RPO ）在很大程度上决定了您的备份策略。</block>
   <block id="7fc686e60d66e170f709548904c946f0" category="doc">为 Exchange Server 资源定义备份策略</block>
   <block id="a1232051e6c5e893c86adc35d8552a57" category="paragraph">在创建备份作业之前定义备份策略有助于确保您拥有成功还原数据库所需的备份。您的服务级别协议（ Service Level Agreement ， SLA ），恢复时间目标（ Recovery Time Objective ， RTO ）和恢复点目标（ Recovery Point Objective ， RPO ）在很大程度上决定了您的备份策略。</block>
@@ -7735,7 +7617,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="504dab336faa025661b32deace06211b" category="paragraph">例如，如果适用于 Exchange 的插件在上午 8 ： 00 执行完整备份 + 事务日志备份而另一个完整的 + 事务日志备份则在下午 5 ： 00 进行，它可以使用最新的事务日志备份将数据库还原到上午 8 ： 00 之间的任何时间和下午 5 ： 00如果事务日志不可用，则适用于 Exchange 的插件只能执行时间点还原操作，从而将数据库还原到适用于 Exchange 的插件完成完整备份时为止。</block>
   <block id="50d4934279cff62c1929dc7c0c7c715d" category="summary">在环境中安装适用于 Microsoft Exchange Server 的 SnapCenter 插件时，您可以使用 SnapCenter 备份 Exchange 资源。</block>
   <block id="6a9a694fbb40be17e9c2dd832436bce8" category="paragraph">您可以计划在服务器之间同时运行多个备份。备份和还原操作不能同时在同一资源上执行。不支持在同一卷上创建主动和被动备份副本。</block>
-  <block id="58f286cbafd33e30ed9fd4a95a26e0f7" category="paragraph"><block ref="58f286cbafd33e30ed9fd4a95a26e0f7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="145f4e41c29b520e1d8d5a4e3691ae25" category="summary">如果数据库不属于任何资源组，您可以从 " 资源 " 页面备份数据库或数据库可用性组。</block>
   <block id="3b149cd899fbd2201eebaa6d8ac21929" category="doc">备份 Exchange 数据库</block>
   <block id="da6f15c5790afdf8cafcbd8f903edb93" category="list-text">您必须已将备份操作所使用的聚合分配给数据库所使用的 SVM 。</block>
@@ -7744,9 +7625,7 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="860213bd7e47ab530bb0265db0d4d02a" category="cell">* 最佳实践： * 请勿同时运行活动数据库和被动数据库的备份。可能发生争用情况，并且其中一个备份可能失败。</block>
   <block id="1aa4e724dd9a6c283aa6653b764530f0" category="list-text">在左侧导航窗格中，单击 * 资源 * ，然后从列表中选择 * Microsoft Exchange Server 插件 * 。</block>
   <block id="56211ba6636186607e13945dac559a10" category="list-text">在资源页面中，从 * 查看 * 列表中选择 * 数据库 * 或 * 数据库可用性组 * 。</block>
-  <block id="6da272f1d69c440674470ba19591ba05" category="paragraph">在资源页面中， <block ref="362bbfc4e46b557d6a4f1f7a4cbeaf25" category="inline-image-macro-rx" type="image"></block> 图标表示数据库位于非 NetApp 存储上。</block>
   <block id="0ad1c36a6c3e0a80135136739263c1d7" category="admonition">在 DAG 中，如果活动数据库副本位于非 NetApp 存储上，并且至少有一个被动数据库副本驻留在 NetApp 存储上，则可以保护数据库。</block>
-  <block id="f4fccf161b5e67001656d817cbe815c9" category="paragraph">单击 *<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>* ，然后选择主机名和数据库类型以筛选资源。然后，您可以单击 *<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>* 以关闭筛选器窗格。</block>
   <block id="bb40ccbb928b274cb38a895aef70f856" category="list-text">如果要备份数据库，请单击数据库名称。</block>
   <block id="8373034f279dfd1570ec179c090b858c" category="list-text">如果显示拓扑视图，请单击 * 保护 * 。</block>
   <block id="c5f4c29439aa6c78216cfa3f9865548c" category="list-text">如果显示 " 数据库 - 保护资源 " 向导，请继续执行步骤 3 。</block>
@@ -7814,7 +7693,6 @@ NetApp®Single Mailbox Recovery已于2023年5月12日终止提供(EOA)。在支�
   <block id="1bbe027c3f1875faca6a0e19b110374a" category="list-text">如果某个资源组包含来自不同主机的多个数据库，则某些主机上的备份操作可能会因网络问题而延迟启动。您应配置的值<block ref="d64fa5ed6e4f9d90354e90ccc68fcee6" prefix=" " category="inline-code"></block> 在中<block ref="0ed3c2119f203df035d396aaee45a14a" prefix=" " category="inline-code"></block> 使用<block ref="c49971dbd0f66cf4e6b62fc441967947" prefix=" " category="inline-code"></block> PowerShell cmdlet。</block>
   <block id="a1d7cae473cc035fb76e1540b76e2763" category="list-text">在资源组中，如果您包括在 NetApp 和非 NetApp 存储上具有主动 / 被动数据库副本的数据库或数据库可用性组，并且您已在策略中选择 * 备份活动副本 * 或 * 备份服务器上的副本 * 选项， 然后，备份作业将进入警告状态。</block>
   <block id="b9c7ed41d7e2f0a91ab873b63037fa09" category="paragraph">NetApp 存储上的主动 / 被动数据库副本备份将成功，而非 NetApp 存储上的主动 / 被动数据库副本备份将失败。</block>
-  <block id="d9ad3509ed74d62d9925203b0b85cc8b" category="paragraph">您可以通过在搜索框中输入资源组名称或单击 * 来搜索资源组<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>* ，然后选择标记。然后，您可以单击 *<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>* 以关闭筛选器窗格。</block>
   <block id="da88dc68f2a712cc761152a071758b5d" category="summary">在使用 PowerShell cmdlet 备份和还原之前，您必须创建 Storage Virtual Machine （ SVM ）连接和凭据。</block>
   <block id="8a09c01ad5dee966673a5026d38e1304" category="doc">使用适用于 Exchange Server 的 PowerShell cmdlet 创建存储系统连接和凭据</block>
   <block id="a1b6133c4b2ef7fa302d10ffdc07c0eb" category="list-text">使用启动PowerShell连接会话<block ref="5127bb5818426c9a226f86808b688df6" prefix=" " category="inline-code"></block> cmdlet。</block>
@@ -7831,7 +7709,6 @@ NetApp®Single Mailbox Recovery已于2023年5月12日终止提供(EOA)。在支�
   <block id="96b6fde24fc45821a7c8c021ba21b20b" category="list-text">在左侧导航窗格中，单击 * 资源 * ，然后从 " 资源 " 页面左上角的插件下拉列表中选择 * Microsoft Exchange Server* 。</block>
   <block id="71edd90271636e3f12b43102371d4d7d" category="list-text">在资源页面的 * 视图 * 下拉列表中选择 * 数据库 * ， * 数据库可用性组 * 或 * 资源组 * 。</block>
   <block id="322a7c54d7c7799de3e202746d568ea4" category="paragraph">所有数据库和 DAG 都以 FQDN 格式显示，并显示其 DAG 或主机名，以便您可以区分多个数据库。</block>
-  <block id="db8c73281f0636096f5bd11fbb13289a" category="paragraph">单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 并选择主机名和 Exchange Server 以筛选资源。然后，您可以单击 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
   <block id="100eb6faf67bf674d493eae8a5daad8d" category="paragraph">此时将显示资源以及资源名称，数据库可用性组名称，数据库当前处于活动状态的服务器，具有副本的服务器，上次备份时间以及整体状态等信息。</block>
   <block id="fded0b659a27c194139769a9325685fa" category="list-text">如果数据库位于非 NetApp 存储上，则整体状态列中将显示不可用于备份。</block>
   <block id="64e0044566e982c4c7cc1ae9310cc119" category="paragraph">在 DAG 中，如果活动数据库副本位于非 NetApp 存储上，并且至少有一个被动数据库副本位于 NetApp 存储上，则 "Not protected" 将显示在 * 整体状态 * 列中。</block>
@@ -7964,12 +7841,10 @@ NetApp®Single Mailbox Recovery已于2023年5月12日终止提供(EOA)。在支�
   <block id="7cb4d9086d6c1cf01b806f319a85cc63" category="list-text">从 "Available Resources" 部分中选择资源，然后单击右箭头将其移动到 "Selected Resources" 部分。</block>
   <block id="40d8f5c9b7ab33a156de7775f928f1c6" category="paragraph">SnapCenter for Microsoft Exchange Server 的资源组中的每个 Snapshot 副本不能包含 30 个以上的数据库。如果一个资源组中的数据库超过 30 个，则会为其他数据库创建另一个 Snapshot 副本。因此，在主备份作业下创建了 2 个子作业。对于具有二级复制的备份，在进行 SnapMirror 或 SnapVault 更新期间，可能会出现两个子作业的更新重叠的情况。即使日志指示作业已完成，主备份作业也会始终保持运行状态。</block>
   <block id="615d8aed25e6e033e2c4a35b84715c0e" category="admonition">如果某个策略包含 * 备份作业创建时间要选择的服务器上的副本 * 选项，则会显示一个服务器选择选项以选择一个或多个服务器。服务器选择选项将仅列出选定数据库位于 NetApp 存储上的服务器。</block>
-  <block id="325c8572dc9de1be94418b7cc6a7a127" category="list-text">在为选定策略配置计划部分中，单击 *<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>* 。</block>
   <block id="13d62cafc9cfc5929565224152d9294b" category="paragraph">您必须对策略中列出的每个频率执行此操作。已配置的计划将在为选定策略配置计划部分的 * 已应用计划 * 列中列出。</block>
   <block id="632e8f771f2b94f3016767f9170f82e3" category="paragraph">对于电子邮件通知、您必须已使用GUI或PowerShell命令指定SMTP服务器详细信息<block ref="997c102f406bdf4b18d046c49ffaa8f9" prefix=" " category="inline-code"></block>。</block>
   <block id="5060fe17eb15393a38b634cfabf7122a" category="summary">如果要保护 Exchange 数据库，应安装和设置适用于 Microsoft Exchange Server 的 SnapCenter 插件。</block>
   <block id="31db120ce3e7f7d5198a060e87905d01" category="doc">适用于 Microsoft Exchange Server 的 SnapCenter 插件的安装工作流</block>
-  <block id="de378859031a77aae5e0ad69c312f9d6" category="image-alt">SCE 安装配置工作流</block>
   <block id="ba8cc99b4cfaa3f9d3c3f0a8380082c0" category="doc">取消 Exchange 数据库的还原操作</block>
   <block id="442b64d998d026e5e41a7f2456755c85" category="summary">您可以使用 SnapCenterAdd Host 页面添加 Windows 主机。适用于 Exchange 的插件会自动安装在指定主机上。这是安装插件的建议方法。您可以为单个主机或集群添加主机并安装插件。</block>
   <block id="43e4843cc378c4665771060dbab161eb" category="doc">添加主机并安装适用于 Exchange 的插件</block>
@@ -8037,11 +7912,8 @@ NetApp®Single Mailbox Recovery已于2023年5月12日终止提供(EOA)。在支�
   <block id="c7f88523eb9618512db4280fed17383f" category="paragraph">此示例将使用指定的策略和资源创建一个新的 Exchange 数据库可用性组（ DAG ）备份资源组：</block>
   <block id="16cb514584e7d79dbe2308dbbf4bbf37" category="paragraph">此示例将创建一个新的二级存储备份：</block>
   <block id="691fa56b0f1b19ab3099a9a59ce15434" category="paragraph">此示例显示特定作业 ID 的作业摘要报告：</block>
-  <block id="c6f3b6a232739129385caa78e571328f" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，请参见<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="0f14951f7fd1d656890413b5b92b9059" category="summary">您可以使用 SnapCenter 通过将一个或多个备份还原到活动文件系统来还原 Exchange 数据库。</block>
   <block id="c37b0bdb3c7a24db287508745921aed4" category="paragraph">以下工作流显示了必须执行 Exchange 数据库还原操作的顺序：</block>
-  <block id="2d1eae8ec36b7998c11e835920d1606c" category="paragraph"><block ref="2d1eae8ec36b7998c11e835920d1606c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2d68b9458c6165a5eeeb8d311718b600" category="paragraph">您也可以手动或在脚本中使用 PowerShell cmdlet 执行备份和还原操作。有关 PowerShell cmdlet 的详细信息，请使用 SnapCenter cmdlet 帮助或参见<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>。</block>
   <block id="f269de38eaba1074c91b8d4834b8f9fe" category="summary">您可以使用适用于 Exchange 的插件备份和还原 Exchange Server 数据库。</block>
   <block id="7fc349d8cb7afc38c854d192b59d0edb" category="doc">适用于 Microsoft Exchange Server 的 SnapCenter 插件的功能</block>
   <block id="9cbd3935a09386c8074fae42744854a0" category="list-text">查看和管理 Exchange 数据库可用性组（ DAG ），数据库和副本集的活动清单</block>
@@ -8305,4 +8177,131 @@ NetApp®Single Mailbox Recovery已于2023年5月12日终止提供(EOA)。在支�
   <block id="ad569cc1cca820033bb20ffe1d5bc4a5" category="paragraph">AIX 7.1或更高版本</block>
   <block id="9e19caeb431a5e29a1a63e3cee4b36c9" category="inline-link">借助ONTAP实现Oracle数据保护</block>
   <block id="d118010bb2b3542007c6749bfd237123" category="list-text"><block ref="d118010bb2b3542007c6749bfd237123" category="inline-link-rx"></block></block>
+  <block id="c1a48c7749bed3ece715469018ee33a2" category="inline-image-macro">活动图标</block>
+  <block id="67f40ea5fdbc92cd5c852a538826cbf4" category="list-text">启动备份操作后、单击"Active"(活动)窗格上的**<block ref="d25e85a9aab5150035d6e57f8aee647c" category="inline-image-macro-rx" type="image"></block>以查看五个最新操作。</block>
+  <block id="8bfbc01abcd17658a9cac51f6510934e" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="29b6ba973b866808257e91ba08b55aac" category="list-text">启动克隆操作后、单击 <block ref="d25e85a9aab5150035d6e57f8aee647c" category="inline-image-macro-rx" type="image"></block> "Active"(活动)窗格以查看五个最新操作。</block>
+  <block id="ec3cd535f5d92020052e243132c0c487" category="list-text">启动还原操作后、单击 <block ref="d25e85a9aab5150035d6e57f8aee647c" category="inline-image-macro-rx" type="image"></block> "Active"(活动)窗格以查看五个最新操作。</block>
+  <block id="28a7ed30dd2aba8bc6a527f3f5882c4b" category="inline-image-macro">取消图标</block>
+  <block id="d96d64aa5068f62f6023fed069016b41" category="list-text"><block ref="81f7bbf99e4090ab5483a3cd95382dc2" category="inline-image-macro-rx" type="image"></block> 已取消</block>
+  <block id="b630478df4d6cf0a952d6dc7f39a7398" category="inline-image-macro">筛选器图标</block>
+  <block id="75c43dfa09fd33ec50ad9523e384b113" category="list-text">单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 以筛选列表、以便仅列出备份操作。</block>
+  <block id="58d5d8d34dda65e7d6b6683db348677f" category="list-text">单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 以筛选列表、以便仅列出克隆操作。</block>
+  <block id="3db25592a158b58973a37b2153941e49" category="list-text">单击 <block ref="d25e85a9aab5150035d6e57f8aee647c" category="inline-image-macro-rx" type="image"></block> "Active"(活动)窗格以查看五个最新操作。</block>
+  <block id="dc72b46d45b54aaf8fcbd9182344ca4f" category="list-text">单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 以筛选列表、以便仅列出还原操作。</block>
+  <block id="eefec303079ad17405c889e092e105b0" category="inline-image-macro">拆分</block>
+  <block id="7afb33533c522db05f2852d26374b72a" category="list-text">从管理副本视图中、选择克隆的资源(例如数据库或LUN)、然后单击**<block ref="b53821d0420e47a1bec99612ea55fe06" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="2e058f605716b945e61377c0df0687de" category="list-text">选择备份，然后单击 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="7495c2e60977b03d4fd9f88701c5a72c" category="inline-image-macro">更多图标</block>
+  <block id="14726728af6158ee595d6fedee05c2f7" category="list-text">单击 <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block> 图标，然后单击*Start Service*或*Restart Service*。</block>
+  <block id="783a4d6f23877e2fba6250c05a4f21f6" category="list-text">单击 <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block> 图标，然后单击*暂停计划*将此插件的主机置于维护模式。</block>
+  <block id="7dd024354fe8487d857c0a0818270399" category="list-text">单击，然后单击 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>*OK*。</block>
+  <block id="781ffefd65873ffc476623160ecbe609" category="list-text">选择克隆，然后单击 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="f89f0ec412a77c24f996a08f409d1820" category="image-alt">资源和策略</block>
+  <block id="daed8c1d6289df8afc01921973a5d713" category="paragraph">通过提供一个用于创建用户定义的 SnapCenter 插件的框架，其他标准或自定义应用程序和数据库也支持数据保护。这样就可以通过同一个单一管理平台为其他应用程序和数据库提供数据保护。通过利用此框架、NetApp发布了适用于IBM DB2、MongoDB和MySQL的SnapCenter自定义插件</block>
+  <block id="5daf7cd6936ac58722973bae3cdaffba" category="paragraph">有关Windows cmdlet的详细信息，请参阅<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="8cd61d163e269d0c983a3b8834807153" category="paragraph">自定义插件受社区支持。</block>
+  <block id="34d41de6bbbd59c588068d1c2b2e073d" category="paragraph">您还可以为适用于 VMware vSphere 的 SnapCenter 插件部署 CA 证书。有关详细信息，请参见<block ref="bdfc8d677279c2d2dc7a5041c41cc2d9" category="inline-link-rx"></block>。</block>
+  <block id="85f6b6009517f7b0e7f33fd0f974822d" category="image-alt">配置F5工作流</block>
+  <block id="31c76694e0bd0adbd4e7500aae1dc43f" category="paragraph">有关详细信息，请参见<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="31152c60a83a3da780e5073389e4b747" category="inline-image-macro">从资源组添加策略</block>
+  <block id="4b7342aa2301dc65d846bc7f9824da4b" category="list-text">在“软件”页面的“许可证”部分中，选择*Add*<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>()。</block>
+  <block id="d5a64462b6bfb86580e5409f2f5578a7" category="paragraph">有关cmdlet的信息，请参见<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="10c463026bbaee0709b93b0139ba3d53" category="paragraph">有关权限列表的信息，请参见 <block ref="2901d46777c33f0a10c5ed76244cf8df" category="inline-link-macro-rx"></block>。</block>
+  <block id="ec43248482bbb71ea2071b13b6f5e901" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 get-help command_name 来获取。或者，您也可以参考<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="284000a1d21bf26a846db28aa42c4b2b" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="9c9f94e7cbd0d5165065429ff1228556" category="paragraph">除了使用 SnapCenter 图形用户界面之外，您还可以使用 PowerShell cmdlet 创建脚本以执行配置，备份和还原操作。某些 cmdlet 可能会随每个 SnapCenter 版本而发生更改。<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>具有详细信息。</block>
+  <block id="2139c119ff31dd3d0c3baf0c94dca790" category="list-text">单击 <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block> 以注册新域。</block>
+  <block id="8684f559da47ab78b97eaa1f4dd2e125" category="paragraph">可选：您可以单击*<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>图标从其他存储系统添加更多卷、LUN和qtrees。</block>
+  <block id="16b2f3ca612bbc281da30f47d8745ad6" category="paragraph">您可以通过在搜索框中输入资源组名称或单击<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>，然后选择标记来搜索资源组。然后、您可以单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
+  <block id="f8048dee25d91b4b232ff5b105d0eaae" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 get-help _command_name_ 来获取。或者、您也可以参考<block ref="804874efd19048a3cbaef16ba72547d7" category="inline-link-rx"></block></block>
+  <block id="88dc295c54875da0f3835ed4a507d948" category="paragraph">单击*<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>、然后选择主机名和资源类型以筛选资源。然后、您可以单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
+  <block id="de442c1c5f086f8cd46c5e1596a736e0" category="inline-image-macro">应用程序设置</block>
+  <block id="b007c2553f690c5642e3c051e56c8888" category="paragraph"><block ref="b007c2553f690c5642e3c051e56c8888" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d2c3c2916d625cb25596f968eda001b4" category="admonition">您也可以单击**来创建策略<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="ded3696a8d4896a397105d3cd2816853" category="list-text">单击要为其配置计划的策略的配置计划列中的*<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="5d8e722e73c6f5e985e5a6bfc5d367ee" category="paragraph">您也可以手动或在脚本中使用 PowerShell cmdlet 执行备份，还原和克隆操作。SnapCenter cmdlet 帮助和 cmdlet 参考信息包含有关 PowerShell cmdlet 的详细信息。<block ref="6d51569562beea1c35d699fadd1a7304" category="inline-link-rx"></block>(英文)</block>
+  <block id="903ffff09a2c4fc90564138e0bd806c1" category="list-text">(可选)单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 并选择主机名。</block>
+  <block id="21ace889b71fc27e50261e003179aba6" category="paragraph">然后、您可以单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
+  <block id="e4552d306d7b596aa0769e749c461897" category="list-text">在配置计划列中、单击要配置的策略的**<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="58500be789107a86aa8893793e67951d" category="inline-image-macro">拆分克隆</block>
+  <block id="c2ee757815f97500ab21bc37d2fd012f" category="list-text">选择克隆、然后单击 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block> 以删除克隆、或者单击以拆分克隆 <block ref="e2ebd4447eea3b032b0dc903c9e04c31" category="inline-image-macro-rx" type="image"></block> 。</block>
+  <block id="ace2594bb6a64aadbacd4be39091a66e" category="list-text">(可选)单击<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>*、然后选择主机名。</block>
+  <block id="c8423c98c01c2381cdca31eeba6dc9c8" category="paragraph">然后、您可以单击**<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>关闭筛选器窗格。</block>
+  <block id="8417c17647830ac0967b3e8a56e97a71" category="image-alt">HANA插件安装工作流</block>
+  <block id="6da91559216fb5698528ab519521e6d8" category="paragraph">有关可与命令结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="9f99e4f096609928f4a9d0c1f80a8176" category="paragraph"><block ref="6d51569562beea1c35d699fadd1a7304" category="inline-link-rx"></block>(英文)</block>
+  <block id="dc6eece0d1c3cc7890a8af82421c5ad8" category="image-alt">以帐户身份运行</block>
+  <block id="e13720033977db6e0527dfee3b780f5b" category="list-text">如果要删除克隆，请从表中选择克隆，然后单击 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="724b241ff2cdab2c1bc1d87a3ab30bb4" category="list-text">如果要拆分克隆，请从表中选择克隆，然后单击 <block ref="e2ebd4447eea3b032b0dc903c9e04c31" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="6b77b088a166c6def22b47133c882582" category="paragraph">NetApp 还提供 MySQL ， MaxDB ， DB2 ， Sybase ， DPGLUE ， MongoDB ， ORASCPM 和 PostgreSQL 自定义插件。</block>
+  <block id="9ef736e00e9830a4ee825444862d9685" category="paragraph">如果要管理 MySQL 或 DB2 应用程序，可以使用 NetApp 提供的 MySQL 和 DB2 自定义插件。</block>
+  <block id="d9356da5000cd956b06d2be3b1fe59b0" category="paragraph">您也可以手动或在脚本中使用 PowerShell cmdlet 执行备份，还原和克隆操作。有关PowerShell cmdlet的详细信息、请使用SnapCenter cmdlet帮助或参阅<block ref="804874efd19048a3cbaef16ba72547d7" category="inline-link-rx"></block></block>
+  <block id="fe1f6ec78b7a8d6869a93911e4f70d13" category="paragraph">单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>，然后选择主机名和资源类型以筛选资源。然后、您可以单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
+  <block id="e991a5b99682a88e821ee149bc42973f" category="admonition">您也可以通过单击来创建策略 <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="361c2c0b73608170a03792b8c87b4439" category="list-text">单击 <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block> 要为其配置计划的策略的配置计划列。</block>
+  <block id="cfb5b4c0c8592af00f49aa8cf998ed5b" category="paragraph">您可以通过在搜索框中输入资源组名称或单击并选择标记来搜索资源组 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 。然后、您可以单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
+  <block id="e6e298eeeedc2febb450da6a37c82c75" category="paragraph">有关PowerShell cmdlet的信息，请使用SnapCenter cmdlet帮助或参阅<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="381c0680e35a58c0ed8ef28565bd6ddd" category="paragraph">您也可以手动或在脚本中使用 PowerShell cmdlet 执行备份，还原和克隆操作。有关PowerShell cmdlet的详细信息，请使用SnapCenter cmdlet帮助或参见<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="e675961e1647f1890d1f6a4b7a867792" category="image-alt">安装和配置插件</block>
+  <block id="3875f4e2415c54c6fac07c34c482807f" category="paragraph">您也可以手动或在脚本中使用 PowerShell cmdlet 执行备份，还原和克隆操作。有关PowerShell cmdlet的信息，请使用SnapCenter cmdlet帮助或参阅<block ref="804874efd19048a3cbaef16ba72547d7" category="inline-link-rx"></block>。</block>
+  <block id="82df92bf63205eb90f0513c131abc2dd" category="list-text">如果要删除克隆、请从表中选择此克隆、然后单击以删除此克隆 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block> 。</block>
+  <block id="5fe8cf0d0f98d4fff0cd2b016d0d8fc6" category="inline-image-macro">Exchange插件安装工作流</block>
+  <block id="f567437e701ce2413156c48143e5757d" category="paragraph"><block ref="f567437e701ce2413156c48143e5757d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb62fbb794888232bcd99a94764ba3fb" category="image-alt">资源组策略</block>
+  <block id="8996075026eb9ba4042ef8a426b775a4" category="paragraph"><block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>[]</block>
+  <block id="1c444a63c06a8557746153e27b1da753" category="paragraph">您也可以手动或在脚本中使用 PowerShell cmdlet 执行备份和还原操作。有关PowerShell cmdlet的详细信息，请使用SnapCenter cmdlet帮助或参阅。<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block></block>
+  <block id="cab8e98ca5648936d9681023a189ff82" category="inline-image-macro">不支持图标</block>
+  <block id="7f47dd3c5dd866d40b778b95b42cc2dc" category="paragraph">在资源页面中、此 <block ref="284aab9e75d833ac22d00193abde38d4" category="inline-image-macro-rx" type="image"></block> 图标表示数据库位于非NetApp存储上。</block>
+  <block id="df2bffc03e6082b490c6b2d988187ed8" category="paragraph">单击*<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>、然后选择主机名和数据库类型以筛选资源。然后、您可以单击**<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>关闭筛选器窗格。</block>
+  <block id="fd91f8a2614ba08f70cfa0820abd4a9d" category="inline-image-macro">从资源组添加策略</block>
+  <block id="2067212b1a74c5413efe27ca935f9045" category="admonition">您也可以单击**来创建策略<block ref="abfdd3a1b0250a5a329db404a7dbbb7a" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="5c72942e47dd59d535a0243e01b915c5" category="paragraph">您可以通过在搜索框中输入资源组名称或单击*并选择标记来搜索资源组<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>。然后、您可以单击**<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>关闭筛选器窗格。</block>
+  <block id="70263a9abe8afc22f960f01a630b5324" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，请参见<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="2ea0725e7eb85750286355cab646b6c6" category="list-text">在为选定策略配置计划部分中，单击要配置计划的策略的*配置计划*列中的**<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="a76a81f87730cc587fdae2f40fc9d18b" category="paragraph">单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 并选择主机名和Exchange Server以筛选资源。然后、您可以单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
+  <block id="44040e214e919d86d6a1f3f26db3d22c" category="inline-image-macro">编辑图标</block>
+  <block id="68819c7042f13f544d27a782b1c23806" category="list-text">单击 <block ref="b4ece97e1b8d14f42e755a2c424f87a6" category="inline-image-macro-rx" type="image"></block> 以修改这些值。</block>
+  <block id="83e6465f5f218f66388c0caf2b844f54" category="list-text">单击 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block> 以修改这些值。</block>
+  <block id="d1f43f7b8d3d193845fa35a92bbdd6a6" category="paragraph">您可以通过在搜索框中输入资源组名称或单击*并选择标记来搜索资源组<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>。然后、您可以单击**<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>关闭筛选器窗格。</block>
+  <block id="c00a655ac4b7e93c83b7d1e532a271e3" category="list-text">单击*<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>、然后选择主机名和数据库类型以筛选资源。</block>
+  <block id="cacbdf450009e97e65402177f3e41fcc" category="list-text">选择克隆的资源，然后单击 <block ref="e2ebd4447eea3b032b0dc903c9e04c31" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="4eff9663ac217c5c9f84fbed42022a92" category="list-text">如果您在SAN环境中使用Oracle数据库、请确保按照本指南中提到的建议配置SAN环境<block ref="c4f7653512cf02eacb80aa4d3d06e4f7" category="inline-link-rx"></block>。</block>
+  <block id="07ba2d5a3846c6b3dfc2d9cb2e6107d1" category="image-alt">Oracle插件安装wrokflow</block>
+  <block id="f4e54f1fe48ac3ce5112308b1eceabc9" category="list-text">单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>，然后选择主机名和数据库类型以筛选资源。</block>
+  <block id="b88a600858aba4216607e73befe07289" category="list-text">启动备份作业后、单击 <block ref="d25e85a9aab5150035d6e57f8aee647c" category="inline-image-macro-rx" type="image"></block> "Active"(活动)窗格以查看五个最新操作。</block>
+  <block id="fce48a7377627de7fdbdbbde741ef45b" category="paragraph">您可以单击**来添加其他参数<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="0e2e9e7f1721ffffec804696fc58c636" category="inline-image-macro">正在打印备份策略</block>
+  <block id="4b28387d946a835bf45d6762c60a1a9d" category="paragraph"><block ref="4b28387d946a835bf45d6762c60a1a9d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8a2ba757e81446f3bb13c549e71a6fe2" category="list-text">选择PDB克隆(目标CDB：PDBClone)，然后单击 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="77d3c1cb2113d9485bc90fa558137e47" category="paragraph">单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>，然后选择主机名和数据库类型以筛选资源。然后、您可以单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 图标以关闭筛选器窗格。</block>
+  <block id="b0a03c472031a6c7aa5d5b5b5b98ff0a" category="list-text">选择克隆的资源(例如数据库或LUN)，然后单击 <block ref="e2ebd4447eea3b032b0dc903c9e04c31" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="786cf29e0fae782cc54a46d06699640e" category="list-text">选择PDB克隆(目标CDB：PDBClone)，然后单击 <block ref="e2ebd4447eea3b032b0dc903c9e04c31" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="7a36bcf6a4d49e5a847d68db58f87a8c" category="paragraph">或者，您也可以参考<block ref="868bc9c3fbc71eae2d899862af6d942e" category="inline-link-rx"></block> 或<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="48c770c57902137969bad5ada66cdb23" category="paragraph">有关运行cmdlet的信息、请参阅<block ref="804874efd19048a3cbaef16ba72547d7" category="inline-link-rx"></block></block>
+  <block id="4b369d22fef677e7d31134db72dcd702" category="image-alt">LUN映射</block>
+  <block id="d14e8832c5a34c39186bce8b9bdf2fd8" category="paragraph">您也可以手动或在脚本中使用 PowerShell cmdlet 执行备份，还原，恢复，验证和克隆操作。有关PowerShell cmdlet的详细信息、请使用SnapCenter cmdlet帮助或参阅<block ref="804874efd19048a3cbaef16ba72547d7" category="inline-link-rx"></block></block>
+  <block id="515a2651f07e5f19f6a695c98dfe18c6" category="image-alt">还原工作流</block>
+  <block id="cb17a89f6b7dd4402f24df804e2b38c3" category="paragraph">您可以通过单击**启动策略向导来创建<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>策略。</block>
+  <block id="439a373cb5b91d84db999b88f0f6a246" category="list-text">选择要为其配置验证计划的策略、然后单击**<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="dcc66de93aefa3105fda8cbdb3cdc2cf" category="list-text">选择备份、然后单击**<block ref="11ec183c45ca833d0220ddbf2e2e1d98" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="5ce54e4e2a1eeecb7ff1150fd6741eaf" category="list-text">单击<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>，然后选择要筛选实例的主机名。</block>
+  <block id="fab9a033dfbc33ab049bd62138584423" category="list-text">单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
+  <block id="72ef4e5f66a30ed58401ba4fc5c96212" category="list-text">在为选定策略配置计划部分中、单击要配置计划的策略的配置计划列中的*<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="c4fcce06d2389c100156c16a05a82d53" category="paragraph">单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 并选择主机名和SQL Server实例以筛选资源。然后、您可以单击 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 以关闭筛选器窗格。</block>
+  <block id="35c62343af99b514b96b86a9f912ab4e" category="image-alt">SQL插件安装工作流</block>
+  <block id="397018987f3e452840315e760f752436" category="paragraph">有关详细信息，请参阅<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="243a576831cdaafb2fb56f19e55b67d6" category="image-alt">Windows插件安装工作流</block>
+  <block id="286471197670cbf6786e397f076201eb" category="image-alt">Exchange数据库备份工作流</block>
+  <block id="fefbbf19306793dac5ce76554465473d" category="paragraph">您也可以手动或在脚本中使用 PowerShell cmdlet 执行备份，还原和克隆操作。SnapCenter cmdlet帮助或包含有关PowerShell cmdlet的<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block> 详细信息。</block>
+  <block id="18ba29131e9f39451f6a0efd6b63dafe" category="paragraph">如果没有符合要求的现有策略、您可以复制并修改现有策略、也可以通过单击启动策略向导来创建新策略 <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block> 。</block>
+  <block id="80594268749f867035de9885db91d7c7" category="list-text">在为选定策略配置计划部分中、单击 <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block> 要配置计划的策略的配置计划列。</block>
+  <block id="ea89bd143074df04d399b2cef8e79bce" category="paragraph">如果没有符合要求的现有策略、您可以单击*启动策略向导来创建新策略<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="3b501ea9593b052af9f12070b6101991" category="paragraph">有关详细信息，请参见<block ref="6c42f03aa0c367912025171ddcbb1f0d" category="inline-link-rx"></block>。</block>
+  <block id="79cfb9f00fa8ea603f631e679e453fad" category="paragraph">有关卸载适用于VMware vSphere的SnapCenter插件的信息，请参见<block ref="cae8a6db54fa4da6d80207fee61e78d1" category="inline-link-rx"></block>。</block>
+  <block id="a04435aca3a9e6f78573fb57a1c04b07" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者、您也可以参考<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block></block>
+  <block id="1875bc7d35463727b044d94553d75c20" category="paragraph">此外，您还可以使用 _Uninstall-SmHostPackage_ cmdlet 和所需参数从多个主机卸载插件。有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="d1f68d146c3a156b97620bbf537dc143" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
+  <block id="9792c7ba1a8a833a1c75e11c4a7b46c3" category="list-text">如果要升级多个主机，请选择所有主机，单击，然后单击 <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block>*Upgrade*&gt;*OK*。</block>
+  <block id="ae08501da5e1f78dacab0013886bb73e" category="image-alt">升级SnapCenter</block>
 </blocks>

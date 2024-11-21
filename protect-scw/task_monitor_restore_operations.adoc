@@ -24,7 +24,7 @@ summary: 您可以使用作业页面监控不同 SnapCenter 还原操作的进�
 * image:../media/failed_icon.gif["失败图标"] 失败
 * image:../media/warning_icon.gif["已完成，但显示警告图标"] 已完成，但出现警告或由于出现警告而无法启动
 * image:../media/verification_job_in_queue.gif["验证作业已排队"] 已排队
-* image:../media/cancel_icon.gif[""] 已取消
+* image:../media/cancel_icon.gif["取消图标"] 已取消
 
 
 * 步骤 *
@@ -33,7 +33,7 @@ summary: 您可以使用作业页面监控不同 SnapCenter 还原操作的进�
 . 在监控页面中，单击 * 作业 * 。
 . 在作业页面中，执行以下步骤：
 +
-.. 单击 image:../media/filter_icon.gif[""] 对列表进行筛选，以便仅列出还原操作。
+.. 单击 image:../media/filter_icon.gif["筛选器图标"] 以筛选列表、以便仅列出还原操作。
 .. 指定开始日期和结束日期。
 .. 从 * 类型 * 下拉列表中，选择 * 还原 * 。
 .. 从 * 状态 * 下拉列表中，选择还原状态。

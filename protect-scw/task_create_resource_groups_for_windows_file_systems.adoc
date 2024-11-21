@@ -75,12 +75,12 @@ NOTE: 资源组名称不应超过 250 个字符。
 您可以选择任何现有策略并单击 * 详细信息 * 以确定是否可以使用该策略。
 
 +
-如果现有策略不满足您的要求，您可以单击 * 来创建新策略image:../media/add_policy_from_resourcegroup.gif[""]* 以启动策略向导。
+如果没有符合要求的现有策略、您可以单击*启动策略向导来创建新策略image:../media/add_policy_from_resourcegroup.gif["从资源组添加策略"]。
 
 +
 选定策略将在为选定策略配置计划部分的策略列中列出。
 
-.. 在为选定策略配置计划部分中，单击 *image:../media/add_policy_from_resourcegroup.gif[""]* 。
+.. 在为选定策略配置计划部分中、单击要配置计划的策略的配置计划列中的*image:../media/add_policy_from_resourcegroup.gif["从资源组添加策略"]。
 .. 如果此策略与多种计划类型（频率）关联，请选择要配置的频率。
 .. 在添加策略 _policy_name_ 的计划对话框中，指定开始日期，到期日期和频率来配置计划，然后单击 * 完成 * 。
 +
