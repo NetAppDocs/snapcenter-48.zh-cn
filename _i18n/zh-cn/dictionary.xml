@@ -4018,7 +4018,6 @@ _C：\Program Files\NetApp\SnapCenter Plug-in Creper\ETC\custom_plugin_校 验�
   <block id="9f2c74676fb5b339a2fd4a0ccd75bd1e" category="list-text">从灾难恢复备份中的适用于 SQL Server 的 SnapCenter 插件文件夹导入 Windows 和 SQL 计划。</block>
   <block id="d13de4a83d7b44c2e65495def8ef1c7b" category="paragraph-title">有关详细信息 ...</block>
   <block id="27e7993c4841ae5fd670cdd945ccb96d" category="inline-link-macro">灾难恢复 API</block>
-  <block id="ab9238ca6f628634f6f6f2cf63502cdb" category="paragraph">请参见 <block ref="44de5c9fafab2e4e76e19e3717abc2e2" category="inline-link-macro-rx"></block> 视频。</block>
   <block id="f74dbba68e937810c60f2ff30516a3c7" category="summary">您可以使用 SnapCenter 克隆 SQL Server 数据库备份。如果要访问或还原旧版本的数据，可以按需克隆数据库备份。</block>
   <block id="3eee6ccd820abf187846b44912303266" category="doc">从 SQL Server 数据库备份克隆</block>
   <block id="8d7e861fc562f8034dc5e3fbf095339d" category="list-text">您应该已准备好通过完成添加主机，识别资源和创建存储系统连接等任务来保护数据。</block>
@@ -5249,7 +5248,6 @@ _\https：//SnapCenter.YAML_&lt;SnapCenter_port&gt;&lt;SnapCenter_IP_address_or_
   <block id="32f68a60cef40faedbc6af20298c1a1e" category="paragraph">删除</block>
   <block id="9aa96933bdaa05ec27830a1517e54f9a" category="paragraph">启用或禁用存储灾难恢复</block>
   <block id="9bb6ced642f1be37b6ad58e85292fffa" category="paragraph"><block ref="d1ce3cd66a1844665a722875b7dc8311" prefix="" category="inline-code"></block></block>
-  <block id="90840bc3d6109c892e0f709274fdc6b6" category="paragraph">有关详细信息，请参见<block ref="af818973dd6acaf1e28a3bd4ca9bd4a5" category="inline-link-rx"></block> 视频。</block>
   <block id="fc004b0a2e525fdc279e93342807a662" category="summary">您可以通过 HTTP 请求中设置的参数和变量来控制 API 调用的处理方式。</block>
   <block id="ee083ff11ffc430b7230624e8985e88c" category="doc">控制 API 请求的输入变量</block>
   <block id="957a8c35c28e967701ff975f1d7182d5" category="section-title">HTTP 方法</block>
@@ -7900,7 +7898,6 @@ NetApp®Single Mailbox Recovery已于2023年5月12日终止提供(EOA)。在支�
   <block id="f367d650e57088caf7b808e01235016d" category="inline-link">如何使用 SnapCenter 从 SMBR 中的二级存储还原</block>
   <block id="41b4c689a8b0e3ba8bfecb2a1e608e46" category="list-text"><block ref="41b4c689a8b0e3ba8bfecb2a1e608e46" category="inline-link-rx"></block></block>
   <block id="f004280f6db6ea5f9302c9851388d751" category="inline-link">使用 SMBR 从 SnapVault 恢复 Microsoft Exchange 邮件</block>
-  <block id="1b0fb59a5bc951f7dc82cb43fe362145" category="list-text"><block ref="00a76af185a73b84e54e96058031aef5" category="inline-link-rx"></block></block>
   <block id="47dfd37b6d44f98f65b2e75ff64e7f3a" category="summary">备份 Exchange Server 数据库包括与 SnapCenter 服务器建立连接，发现 Exchange Server 数据库，添加策略，创建备份资源组，备份和查看备份状态。</block>
   <block id="6c40f1cde52cc35bedb76a6ac167d83e" category="doc">使用 PowerShell cmdlet 备份 Exchange 资源</block>
   <block id="177c6d04e35e22fd728d0f8aa88c6c74" category="admonition">适用于 Exchange 的插件不支持克隆操作；因此，适用于 Exchange 的插件不支持 Add-SmPolicy cmdlet 的 CloneType 参数</block>
@@ -8304,4 +8301,7 @@ NetApp®Single Mailbox Recovery已于2023年5月12日终止提供(EOA)。在支�
   <block id="d1f68d146c3a156b97620bbf537dc143" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>。</block>
   <block id="9792c7ba1a8a833a1c75e11c4a7b46c3" category="list-text">如果要升级多个主机，请选择所有主机，单击，然后单击 <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block>*Upgrade*&gt;*OK*。</block>
   <block id="ae08501da5e1f78dacab0013886bb73e" category="image-alt">升级SnapCenter</block>
+  <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
+  <block id="57cf9c4ee485623172a5c60cbee423a4" category="paragraph">观看 <block ref="96716f545c5cf1a209bf10c1a798ce38" category="inline-link-macro-rx"></block> 视频。</block>
+  <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">有关详细信息、请参见<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block>视频。</block>
 </blocks>
