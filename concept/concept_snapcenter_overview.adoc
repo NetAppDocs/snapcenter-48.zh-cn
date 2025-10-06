@@ -28,13 +28,13 @@ SnapCenter 既包括 SnapCenter 服务器，也包括单个轻型插件。您可
 +
 ** 位于 ONTAP FAS 或 AFF 主系统上并复制到 ONTAP FAS 或 AFF 二级系统的数据
 ** ONTAP Select 主系统上的数据
-** 位于ONTAP FAS 或AFF 主系统和二级系统上并受本地StorageGRID 对象存储保护的数据(使用NetApp BlueXP云备份集成)
+** 位于ONTAP FAS或AFF主系统和辅助系统上的数据，并使用NetApp备份和恢复集成保护到本地StorageGRID对象存储
 
 
 * 内部部署在混合云中以保护以下内容：
 +
 ** 位于ONTAP FAS 或AFF 主系统上并复制到Cloud Volumes ONTAP 的数据
-** ONTAP FAS 或AFF 主系统和二级系统上的数据、并通过NetApp BlueXP云备份集成保护到云中的对象和归档存储
+** 位于ONTAP FAS或AFF主系统和辅助系统上的数据，使用NetApp备份和恢复集成保护到云中的对象和归档存储
 
 
 * 在公有云中保护以下内容：
