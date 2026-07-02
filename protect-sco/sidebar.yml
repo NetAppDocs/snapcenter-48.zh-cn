@@ -67,7 +67,7 @@ entries:
   - title: 创建备份策略
     url: "/protect-sco/task_create_backup_policies_for_oracle_database.html"
   - title: 创建资源组
-    url: "/protect-sco/task_create_resource_groups_and_attach_policies_for_oracle_databases.html"
+    url: "/protect-sco/task_create_resource_groups_and_attaching_policies_for_oracle_databases.html"
   - title: 备份 Oracle 资源
     url: "/protect-sco/task_back_up_oracle_resources.html"
   - title: 备份资源组
